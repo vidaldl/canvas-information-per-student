@@ -1,0 +1,276 @@
+// This call gets the statistics of a quiz. In the response you can find the quiz, the questions, the answers, the users that chose the answer.
+
+
+// URL: /v1/courses/{course_id}/quizzes/{quiz_id}/statistics
+
+// More information: https://canvas.instructure.com/doc/api/quiz_statistics.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/quizzes/3024871/statistics
+// Example Response:
+{
+    "quiz_statistics": [
+      {
+        "id": "1723584",
+        "url": "https://byui.instructure.com/api/v1/courses/179890/quizzes/3024871/statistics",
+        "html_url": "https://byui.instructure.com/courses/179890/quizzes/3024871/statistics",
+        "multiple_attempts_exist": false,
+        "generated_at": "2023-01-25T19:31:38Z",
+        "includes_all_versions": false,
+        "includes_sis_ids": true,
+        "points_possible": 5,
+        "anonymous_survey": false,
+        "speed_grader_url": "https://byui.instructure.com/courses/179890/gradebook/speed_grader?assignment_id=8425541",
+        "quiz_submissions_zip_url": "https://byui.instructure.com/courses/179890/quizzes/3024871/submissions?zip=1",
+        "question_statistics": [
+          {
+            "id": "44924416",
+            "question_type": "multiple_choice_question",
+            "question_text": "Did you <strong>come prepared</strong> to share your W02 Zoom Prep: Salience of Race answers with your group members?&nbsp;",
+            "position": 1,
+            "responses": 1,
+            "answers": [
+              {
+                "id": "5410",
+                "text": "Yes",
+                "correct": true,
+                "responses": 1,
+                "user_ids": [
+                  279295
+                ],
+                "user_names": [
+                  "Emily Carter"
+                ]
+              },
+              {
+                "id": "1606",
+                "text": "No",
+                "correct": false,
+                "responses": 0,
+                "user_ids": [],
+                "user_names": []
+              }
+            ],
+            "answered_student_count": 1,
+            "top_student_count": 0,
+            "middle_student_count": 1,
+            "bottom_student_count": 0,
+            "correct_student_count": 1,
+            "incorrect_student_count": 0,
+            "correct_student_ratio": 1,
+            "incorrect_student_ratio": 0,
+            "correct_top_student_count": 0,
+            "correct_middle_student_count": 1,
+            "correct_bottom_student_count": 0,
+            "variance": 0,
+            "stdev": 0,
+            "difficulty_index": 1,
+            "alpha": null,
+            "point_biserials": [
+              {
+                "answer_id": 5410,
+                "point_biserial": null,
+                "correct": true,
+                "distractor": false
+              },
+              {
+                "answer_id": 1606,
+                "point_biserial": null,
+                "correct": false,
+                "distractor": true
+              }
+            ]
+          },
+          {
+            "id": "44924418",
+            "question_type": "multiple_choice_question",
+            "question_text": "Did you attend the <strong>whole meeting</strong>?&nbsp;",
+            "position": 2,
+            "responses": 1,
+            "answers": [
+              {
+                "id": "2443",
+                "text": "Yes",
+                "correct": true,
+                "responses": 1,
+                "user_ids": [
+                  279295
+                ],
+                "user_names": [
+                  "Emily Carter"
+                ]
+              },
+              {
+                "id": "3621",
+                "text": "No",
+                "correct": false,
+                "responses": 0,
+                "user_ids": [],
+                "user_names": []
+              }
+            ],
+            "answered_student_count": 1,
+            "top_student_count": 0,
+            "middle_student_count": 1,
+            "bottom_student_count": 0,
+            "correct_student_count": 1,
+            "incorrect_student_count": 0,
+            "correct_student_ratio": 1,
+            "incorrect_student_ratio": 0,
+            "correct_top_student_count": 0,
+            "correct_middle_student_count": 1,
+            "correct_bottom_student_count": 0,
+            "variance": 0,
+            "stdev": 0,
+            "difficulty_index": 1,
+            "alpha": null,
+            "point_biserials": [
+              {
+                "answer_id": 2443,
+                "point_biserial": null,
+                "correct": true,
+                "distractor": false
+              },
+              {
+                "answer_id": 3621,
+                "point_biserial": null,
+                "correct": false,
+                "distractor": true
+              }
+            ]
+          },
+          {
+            "id": "44924420",
+            "question_type": "multiple_choice_question",
+            "question_text": "Did you <strong>participate and share your insights</strong> with others?&nbsp;",
+            "position": 3,
+            "responses": 1,
+            "answers": [
+              {
+                "id": "1325",
+                "text": "Yes",
+                "correct": true,
+                "responses": 0,
+                "user_ids": [],
+                "user_names": []
+              },
+              {
+                "id": "2640",
+                "text": "No",
+                "correct": false,
+                "responses": 1,
+                "user_ids": [
+                  279295
+                ],
+                "user_names": [
+                  "Emily Carter"
+                ]
+              }
+            ],
+            "answered_student_count": 1,
+            "top_student_count": 0,
+            "middle_student_count": 1,
+            "bottom_student_count": 0,
+            "correct_student_count": 0,
+            "incorrect_student_count": 1,
+            "correct_student_ratio": 0,
+            "incorrect_student_ratio": 1,
+            "correct_top_student_count": 0,
+            "correct_middle_student_count": 0,
+            "correct_bottom_student_count": 0,
+            "variance": 0,
+            "stdev": 0,
+            "difficulty_index": 0,
+            "alpha": null,
+            "point_biserials": [
+              {
+                "answer_id": 1325,
+                "point_biserial": null,
+                "correct": true,
+                "distractor": false
+              },
+              {
+                "answer_id": 2640,
+                "point_biserial": null,
+                "correct": false,
+                "distractor": true
+              }
+            ]
+          },
+          {
+            "id": "44924422",
+            "question_type": "essay_question",
+            "question_text": "Who was <strong>most influential in your learning</strong> this week, and <strong>why</strong>?",
+            "position": 4,
+            "responses": 1,
+            "graded": 0,
+            "full_credit": 0,
+            "point_distribution": [
+              {
+                "score": 0,
+                "count": 1
+              }
+            ],
+            "answers": [
+              {
+                "user_ids": [
+                  279295
+                ],
+                "user_names": [
+                  "Emily Carter"
+                ],
+                "responses": 1,
+                "id": "ungraded",
+                "score": 0,
+                "full_credit": false
+              }
+            ]
+          },
+          {
+            "id": "44924424",
+            "question_type": "essay_question",
+            "question_text": "What was the most important thing you learned <strong>from your group's discussion?&nbsp;</strong>",
+            "position": 5,
+            "responses": 1,
+            "graded": 0,
+            "full_credit": 0,
+            "point_distribution": [
+              {
+                "score": 0,
+                "count": 1
+              }
+            ],
+            "answers": [
+              {
+                "user_ids": [
+                  279295
+                ],
+                "user_names": [
+                  "Emily Carter"
+                ],
+                "responses": 1,
+                "id": "ungraded",
+                "score": 0,
+                "full_credit": false
+              }
+            ]
+          }
+        ],
+        "submission_statistics": {
+          "scores": {
+            "40": 1
+          },
+          "score_average": 2,
+          "score_high": 2,
+          "score_low": 2,
+          "score_stdev": 0,
+          "correct_count_average": 2,
+          "incorrect_count_average": 1,
+          "duration_average": 74,
+          "unique_count": 1
+        },
+        "links": {
+          "quiz": "https://byui.instructure.com/api/v1/courses/179890/quizzes/3024871"
+        }
+      }
+    ]
+  }

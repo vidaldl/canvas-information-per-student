@@ -1,0 +1,47 @@
+// This call gets all of the students enrolled in the course, even inactive students in the course.
+
+// URL: /v1/courses/{course_id}/users
+
+// More information: https://canvas.instructure.com/doc/api/courses.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/users
+// Example Response:
+
+[
+    {
+      "id": 279295,
+      "name": "Emily Carter",
+      "created_at": "2020-07-27T02:07:03-06:00",
+      "sortable_name": "Carter, Emily",
+      "short_name": "Emily Carter",
+      "sis_user_id": "105508329",
+      "integration_id": null,
+      "root_account": "byui.instructure.com",
+      "login_id": "emilyc03",
+      "email": "car20020@byui.edu"
+    },
+    {
+      "id": 400521,
+      "name": "CCT - David Vidal",
+      "created_at": "2021-04-22T14:41:46-06:00",
+      "sortable_name": "Vidal, CCT - David",
+      "short_name": "CCT - David Vidal",
+      "sis_user_id": null,
+      "integration_id": null,
+      "root_account": "byui.instructure.com",
+      "login_id": "cct_vidaldl",
+      "email": "vidaldl@byui.edu"
+    },
+    {
+      "id": 247195,
+      "name": "Mitzi Vite Hernandez",
+      "created_at": "2020-01-29T16:13:07-07:00",
+      "sortable_name": "Vite Hernandez, Mitzi",
+      "short_name": "Mitzi Vite Hernandez",
+      "sis_user_id": "694807213",
+      "integration_id": null,
+      "root_account": "byui.instructure.com",
+      "login_id": "mitzivite",
+      "email": "vit20001@byui.edu"
+    }
+  ]

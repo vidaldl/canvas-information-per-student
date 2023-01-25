@@ -1,0 +1,1570 @@
+// This call gets all of the assignments for a course
+// If an assignment follow a rubric, you are also able to get the rubric related to an assignment in the response.
+
+// URL: /v1/courses/{course_id}/assignments
+
+// More information: https://canvas.instructure.com/doc/api/assignments.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/assignments
+// Example Response:
+
+[
+    {
+      "id": 8448139,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui pc102\">\n<div style=\"text-align: right; color: #515151;\"><em>Scroll inside box or open <a href=\"https://resourcecenter.byupathway.org/lms/page/pc-00-math-confidence\" target=\"_blank\">fullscreen</a> </em></div>\n<iframe style=\"overflow: hidden; border: 1px solid #515151; width: 99%; height: 450px; left: 0; top: 0;\" src=\"https://resourcecenter.byupathway.org/lms/page/pc-00-math-confidence\"></iframe></div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-08-02T05:59:00Z",
+      "unlock_at": null,
+      "lock_at": "2022-08-05T05:59:00Z",
+      "points_possible": 1,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-02-17T18:51:44Z",
+      "updated_at": "2023-01-20T16:10:46Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 1,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6ImExMTQ2M2VkLTMzYTgtNDFjMy05ZDQ1LTNkNDk3ODYyYWE4ZiIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBwYzEwMlwiXHUwMDNlXG5cdTAwM2NkaXYgc3R5bGU9XCJ0ZXh0LWFsaWduOiByaWdodDsgY29sb3I6ICM1MTUxNTE7XCJcdTAwM2VcdTAwM2NlbVx1MDAzZVNjcm9sbCBpbnNpZGUgYm94IG9yIG9wZW4gXHUwMDNjYSBocmVmPVwiaHR0cHM6Ly9yZXNvdXJjZWNlbnRlci5ieXVwYXRod2F5Lm9yZy9sbXMvcGFnZS9wYy0wMC1tYXRoLWNvbmZpZGVuY2VcIiB0YXJnZXQ9XCJfYmxhbmtcIlx1MDAzZWZ1bGxzY3JlZW5cdTAwM2MvYVx1MDAzZSBcdTAwM2MvZW1cdTAwM2VcdTAwM2MvZGl2XHUwMDNlXG5cdTAwM2NpZnJhbWUgc3R5bGU9XCJvdmVyZmxvdzogaGlkZGVuOyBib3JkZXI6IDFweCBzb2xpZCAjNTE1MTUxOyB3aWR0aDogOTklOyBoZWlnaHQ6IDQ1MHB4OyBsZWZ0OiAwOyB0b3A6IDA7XCIgc3JjPVwiaHR0cHM6Ly9yZXNvdXJjZWNlbnRlci5ieXVwYXRod2F5Lm9yZy9sbXMvcGFnZS9wYy0wMC1tYXRoLWNvbmZpZGVuY2VcIlx1MDAzZVx1MDAzYy9pZnJhbWVcdTAwM2VcdTAwM2MvZGl2XHUwMDNlIn0.6L47WivHoM4Y70ZuwXTylqlOkCQE4sjQZaknJvrFKpc",
+      "lti_context_id": "a11463ed-33a8-41c3-9d45-3d497862aa8f",
+      "course_id": 179890,
+      "name": "W02 Math Confidence Check",
+      "submission_types": [
+        "online_quiz"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": false,
+      "can_duplicate": false,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8448139",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "quiz_id": 3032619,
+      "anonymous_submissions": false,
+      "published": true,
+      "unpublishable": false,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/quizzes/3032619/submissions?zip=1",
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425607,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n    <h2>Overview&nbsp;</h2>\n    <ul>\n        <li><strong>Task:</strong> Critique&nbsp;the statement \"All Lives Matter.\"</li>\n        <li><strong>Purpose:</strong> Work together to critique the statement \"All Lives Matter.\" By critiquing this statement, you should gain greater understanding and empathy for African Americans.&nbsp;</li>\n    </ul>\n    <p>and</p>\n    <ul>\n        <li><strong>Task:</strong> Better understand diversity training from the racial minority perspective.</li>\n        <li><strong>Purpose:</strong> Develop a diversity plan to teach in high schools.</li>\n    </ul>\n    <p><strong>Note:</strong> Do not submit your worksheet until after you have met with your group in Zoom and made any revisions the Zoom conversation warrants.</p>\n    <h2>Instructions&nbsp;</h2>\n    <ol>\n        <li>Download the <a class=\"instructure_file_link instructure_scribd_file inline_disabled\" title=\"soc323_document_W04ZoomPrepRacialIssuesToday.docx\" href=\"https://byui.instructure.com/courses/179890/files/78771952?verifier=IKvBCyS2KDBlOYZmYCFVlXhzLKYXT79hEGzxeMWg&amp;wrap=1\" target=\"_blank\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/files/78771952\" data-api-returntype=\"File\">W04 Zoom Prep: Racial Issues Today</a>&nbsp;worksheet.&nbsp;</li>\n        <li>Answer the Pre Zoom questions after the following:&nbsp;\n            <ul>\n                <li>Watching the CBS News clip about <a class=\"inline_disabled\" href=\"https://www.cbsnews.com/news/all-lives-matter-black-lives-matter/\" target=\"_blank\">All Lives Matter</a>. (05:13 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTUva-hQjBBQE23YgFIrsnKLJ4zwlnuAKXM6kwpL7I5Suid9ewWyHcM_M6FGHteO8ZQ4qc-uQ5I-o-v/pub\" target=\"_blank\">\"All Lives Matter\" Transcript</a>, <span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;(Captioned Link)&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:1049473,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;23&quot;:1}\" data-sheets-textstyleruns=\"{&quot;1&quot;:0}{&quot;1&quot;:1,&quot;2&quot;:{&quot;2&quot;:{&quot;1&quot;:2,&quot;2&quot;:1136076},&quot;9&quot;:1}}{&quot;1&quot;:15}\" data-sheets-hyperlinkruns=\"{&quot;1&quot;:1,&quot;2&quot;:&quot;https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672213&amp;entry_id=1_rzzaxwcn&quot;}{&quot;1&quot;:15}\"><a class=\"in-cell-link\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672213&amp;entry_id=1_rzzaxwcn\" target=\"_blank\">Captioned Link</a></span>).</li>\n                <li>Skimming the article about <a class=\"inline_disabled\" href=\"https://www.nbcnews.com/news/us-news/viral-video-forced-wealthy-texas-suburb-confront-racism-silent-majority-n1255230\" target=\"_blank\">Southlake</a>.\n                    <ul>\n                        <li>(02:38 mins, <span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Texas town in spotlight after parents push back against diversity plan&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:641,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:1,&quot;12&quot;:0}\"><span style=\"color: #ba372a;\"><em>Texas town in spotlight after parents push back against diversity plan Transcript in progress</em></span>, <a class=\"in-cell-link\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672250&amp;entry_id=1_stut5pvz\" target=\"_blank\">Captioned Link</a>).</span></li>\n                        <li>(02:26 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQvV5fGgm-yHE30vFSMnOwGNCMEjIY4tZGBRcjXWi5It9AGI1_HhyX04LesVqCaecZDtxsQexh7BRC7/pub\" target=\"_blank\">\"A Texas school district had a diversity plan. Parents fought back\" Transcript</a>, <span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;(Captioned Link)&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:1049473,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;23&quot;:1}\" data-sheets-textstyleruns=\"{&quot;1&quot;:0}{&quot;1&quot;:1,&quot;2&quot;:{&quot;2&quot;:{&quot;1&quot;:2,&quot;2&quot;:1136076},&quot;9&quot;:1}}{&quot;1&quot;:15}\" data-sheets-hyperlinkruns=\"{&quot;1&quot;:1,&quot;2&quot;:&quot;https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672272&amp;entry_id=1_ja1ly0r6&quot;}{&quot;1&quot;:15}\"><a class=\"in-cell-link\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672272&amp;entry_id=1_ja1ly0r6\" target=\"_blank\">Captioned Link</a></span>).</li>\n                        <li>The videos on the link summarize some of the articles.</li>\n                    </ul>\n                </li>\n            </ul>\n        </li>\n        <li>Bring your ideas to your Zoom meeting and&nbsp;compare your responses&nbsp;with others.\n            <ul>\n                <li><strong>What&nbsp;patterns and/or differences&nbsp;did you notice?&nbsp;</strong></li>\n                <li><strong>What&nbsp;might account for these&nbsp;patterns and/or differences?</strong></li>\n            </ul>\n        </li>\n        <li>Refine any answers&nbsp;according to your Zoom discussion.</li>\n        <li>Submit your revised worksheet.\n            <ul>\n                <li>The worksheet will be graded on the rubric below.</li>\n            </ul>\n        </li>\n    </ol>\n    <h2>Video 1</h2>\n    <iframe id=\"kaltura_player_1651697676\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/47306393/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1651697676&amp;entry_id=1_y7cgnb6j\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe>\n    <h2>Video 2</h2>\n    <iframe id=\"kaltura_player_1651696911\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/47306393/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1651696911&amp;entry_id=1_k1v9cbr5\" width=\"480\" height=\"270\" allowfullscreen=\"\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allow=\"autoplay *; fullscreen *; encrypted-media *\" frameborder=\"0\"></iframe>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-08-02T18:18:00Z",
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 15,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:08Z",
+      "updated_at": "2023-01-20T16:10:45Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 2,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjVhNDI5MzU1LWYzNjAtNDIwYi04MWMzLWY4ZjkzOWJmMDUyYiIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuICAgIFx1MDAzY2gyXHUwMDNlT3ZlcnZpZXdcdTAwMjZuYnNwO1x1MDAzYy9oMlx1MDAzZVxuICAgIFx1MDAzY3VsXHUwMDNlXG4gICAgICAgIFx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlVGFzazpcdTAwM2Mvc3Ryb25nXHUwMDNlIENyaXRpcXVlXHUwMDI2bmJzcDt0aGUgc3RhdGVtZW50IFwiQWxsIExpdmVzIE1hdHRlci5cIlx1MDAzYy9saVx1MDAzZVxuICAgICAgICBcdTAwM2NsaVx1MDAzZVx1MDAzY3N0cm9uZ1x1MDAzZVB1cnBvc2U6XHUwMDNjL3N0cm9uZ1x1MDAzZSBXb3JrIHRvZ2V0aGVyIHRvIGNyaXRpcXVlIHRoZSBzdGF0ZW1lbnQgXCJBbGwgTGl2ZXMgTWF0dGVyLlwiIEJ5IGNyaXRpcXVpbmcgdGhpcyBzdGF0ZW1lbnQsIHlvdSBzaG91bGQgZ2FpbiBncmVhdGVyIHVuZGVyc3RhbmRpbmcgYW5kIGVtcGF0aHkgZm9yIEFmcmljYW4gQW1lcmljYW5zLlx1MDAyNm5ic3A7XHUwMDNjL2xpXHUwMDNlXG4gICAgXHUwMDNjL3VsXHUwMDNlXG4gICAgXHUwMDNjcFx1MDAzZWFuZFx1MDAzYy9wXHUwMDNlXG4gICAgXHUwMDNjdWxcdTAwM2VcbiAgICAgICAgXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VUYXNrOlx1MDAzYy9zdHJvbmdcdTAwM2UgQmV0dGVyIHVuZGVyc3RhbmQgZGl2ZXJzaXR5IHRyYWluaW5nIGZyb20gdGhlIHJhY2lhbCBtaW5vcml0eSBwZXJzcGVjdGl2ZS5cdTAwM2MvbGlcdTAwM2VcbiAgICAgICAgXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VQdXJwb3NlOlx1MDAzYy9zdHJvbmdcdTAwM2UgRGV2ZWxvcCBhIGRpdmVyc2l0eSBwbGFuIHRvIHRlYWNoIGluIGhpZ2ggc2Nob29scy5cdTAwM2MvbGlcdTAwM2VcbiAgICBcdTAwM2MvdWxcdTAwM2VcbiAgICBcdTAwM2NwXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlTm90ZTpcdTAwM2Mvc3Ryb25nXHUwMDNlIERvIG5vdCBzdWJtaXQgeW91ciB3b3Jrc2hlZXQgdW50aWwgYWZ0ZXIgeW91IGhhdmUgbWV0IHdpdGggeW91ciBncm91cCBpbiBab29tIGFuZCBtYWRlIGFueSByZXZpc2lvbnMgdGhlIFpvb20gY29udmVyc2F0aW9uIHdhcnJhbnRzLlx1MDAzYy9wXHUwMDNlXG4gICAgXHUwMDNjaDJcdTAwM2VJbnN0cnVjdGlvbnNcdTAwMjZuYnNwO1x1MDAzYy9oMlx1MDAzZVxuICAgIFx1MDAzY29sXHUwMDNlXG4gICAgICAgIFx1MDAzY2xpXHUwMDNlRG93bmxvYWQgdGhlIFx1MDAzY2EgY2xhc3M9XCJpbnN0cnVjdHVyZV9maWxlX2xpbmsgaW5zdHJ1Y3R1cmVfc2NyaWJkX2ZpbGUgaW5saW5lX2Rpc2FibGVkXCIgdGl0bGU9XCJzb2MzMjNfZG9jdW1lbnRfVzA0Wm9vbVByZXBSYWNpYWxJc3N1ZXNUb2RheS5kb2N4XCIgaHJlZj0uLi4gKHRydW5jYXRlZCkifQ.Ol3yUiuzWqsiWyaEb6C0S_RklMM9fixUapUBlExHKvc",
+      "lti_context_id": "5a429355-f360-420b-81c3-f8f939bf052b",
+      "course_id": 179890,
+      "name": "W04 Zoom Prep: Racial Issues Today ",
+      "submission_types": [
+        "online_upload"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425607",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "use_rubric_for_grading": true,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_8973",
+          "points": 2,
+          "description": "All Lives Matter. Or do they??",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_2635",
+              "points": 2,
+              "description": "Full Marks",
+              "long_description": "Answer is complete and correct."
+            },
+            {
+              "id": "_6514",
+              "points": 1,
+              "description": "Partial Marks",
+              "long_description": "Answer is partially incorrect or incomplete"
+            },
+            {
+              "id": "_2579",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer is incorrect or not given"
+            }
+          ]
+        },
+        {
+          "id": "_3482",
+          "points": 1,
+          "description": "Diversity Training - Southlake Issues",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_2102",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer is complete and correct"
+            },
+            {
+              "id": "_3761",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer is incorrect or not given"
+            }
+          ]
+        },
+        {
+          "id": "_5159",
+          "points": 1,
+          "description": "Diversity Training - High School Racial Issues?",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_8862",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer shows understanding and is complete"
+            },
+            {
+              "id": "_4405",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer shows misunderstanding or is not given"
+            }
+          ]
+        },
+        {
+          "id": "_6635",
+          "points": 1,
+          "description": "Diversity Training - High School comparison",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_4063",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer shows ability to compare/contrast high school experiences"
+            },
+            {
+              "id": "_4",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer shows misunderstanding or is not given"
+            }
+          ]
+        },
+        {
+          "id": "_1784",
+          "points": 2,
+          "description": "Diversity Training - Southlake's Diversity Plan",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_4418",
+              "points": 2,
+              "description": "Full Marks",
+              "long_description": "Answer shows understanding and is complete"
+            },
+            {
+              "id": "_5894",
+              "points": 1,
+              "description": "Partial Marks",
+              "long_description": "Answer is basically correct but incomplete"
+            },
+            {
+              "id": "_2371",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer shows misunderstanding or is not given"
+            }
+          ]
+        },
+        {
+          "id": "_937",
+          "points": 1,
+          "description": "Diversity Training - Opposition to Southlake's Diversity Plan",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_4130",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer shows understanding and is complete"
+            },
+            {
+              "id": "_3227",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer shows misunderstanding or is not given"
+            }
+          ]
+        },
+        {
+          "id": "_419",
+          "points": 1,
+          "description": "Diversity Training - Lacking Recognition",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_2955",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer shows ability to understand diverse perspectives and is complete"
+            },
+            {
+              "id": "_7928",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer shows misunderstanding or is not given"
+            }
+          ]
+        },
+        {
+          "id": "blank",
+          "points": 2,
+          "description": "Diversity Training - Bullet Plan",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "741990_6334",
+              "points": 2,
+              "description": "Full Marks",
+              "long_description": "Answer is complete (has 3-5 relevant bullet points) and shows understanding of the issues"
+            },
+            {
+              "id": "741990_8502",
+              "points": 1,
+              "description": "Partial Marks",
+              "long_description": "Answer is incomplete (fewer than 3-5 bullet points) and/or shows some misunderstanding"
+            },
+            {
+              "id": "741990_4823",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer is not correct or not given"
+            }
+          ]
+        },
+        {
+          "id": "741990_8921",
+          "points": 2,
+          "description": "Diversity Training - Justification of Proposed Plan",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "741990_8860",
+              "points": 2,
+              "description": "Full Marks",
+              "long_description": "Justification is clear and appropriately addresses each bullet point."
+            },
+            {
+              "id": "741990_3250",
+              "points": 1,
+              "description": "Partial Marks",
+              "long_description": "Justification is incomplete and/or fails to address each bullet point of the Diversity Plan"
+            },
+            {
+              "id": "741990_2120",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer is not correct or not given"
+            }
+          ]
+        },
+        {
+          "id": "741990_949",
+          "points": 1,
+          "description": "After Zoom Comparison",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "741990_8350",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer addresses patterns/differences (and why) of group members' responses"
+            },
+            {
+              "id": "741990_1838",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Answer is incorrect or not given"
+            }
+          ]
+        },
+        {
+          "id": "741990_1257",
+          "points": 1,
+          "description": "After Zoom - Acknowledging Influencers",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "741990_6753",
+              "points": 1,
+              "description": "Full Marks",
+              "long_description": "Answer identifies helpful influencers"
+            },
+            {
+              "id": "741990_3070",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "No names of influencers were given"
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486202,
+        "title": "Racial Issues Today",
+        "points_possible": 15,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "published": true,
+      "unpublishable": false,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425607/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425577,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\"><h2>Overview</h2><ul><li><strong>Task:</strong> Discuss the consequences of historical events prior to and during the Civil Rights Movement.</li><li><strong>Purpose:</strong> Deepen understanding of how historical events prior to and during the Civil Rights Movement impacted racial relationships.</li></ul><p>Or:</p><ul><li><strong>Task:</strong> Discuss the various type of color-blind racism and the dangers of rhetorical strategies.</li><li><strong>Purpose:</strong> Understand the various typologies of color-blind racism.</li></ul><h2>Instructions</h2><p>Choose one of the options and watch the corresponding videos:</p><h3>Option 1</h3><ol><li>Watch the following videos:<ul><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672055&amp;entry_id=1_chnmma1p\" target=\"_blank\">George Takei on Life Inside a Japanese Internment Camp During WWII</a><br><iframe id=\"kaltura_player_1639672055\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672055&amp;entry_id=1_chnmma1p\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(07:37 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vR11bvJ1IPmtvj3PrGQJ3mNLN6sSS6kPKffIXeu_vC00fuuP-MicXeL5RZR7MwQecF_qVFgdiMAsPI_/pub\" target=\"_blank\">\"George Takei on Life Inside a Japanese Internment Camp During WWII\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=9Rg75zEVB1g\" target=\"_blank\">The Tuskegee Syphilis Experiment and Medical Ethics</a>&nbsp;<br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/9Rg75zEVB1g?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:16 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vS3PKkV_pR4NzgGia9NtmIaCF_6l5u99agicykOvZYmp8MFQB5BtielIAxUIHDgioYaCWhY5zoDODHa/pub\" target=\"_blank\">\"The Tuskegee Syphilis Experiment and Medical Ethics\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=hPdh46k7b38\" target=\"_blank\">The Origins of Lynching Culture in the United States</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/hPdh46k7b38?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(10:30 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vSmLtM254lPLPvIdh9vXiql6CrYnfv7QRLTeXWgYHWZB6MVCPl9NAA8FmOcFnpGPf0o46Et6iFceUq8/pub\" target=\"_blank\">\"The Origins of Lynching Culture in the United States\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672076&amp;entry_id=1_dactgv1f\" target=\"_blank\"><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Montgomery Bus Boycott | American Freedom Stories | Biography&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Montgomery Bus Boycott | American Freedom Stories | Biography</span></a><br><iframe id=\"kaltura_player_1639672076\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672076&amp;entry_id=1_dactgv1f\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(03:52 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRRBFpjXH3mUeG4nH33VX-jUToRKDIpwGPcu2584ZaffUgmeSdC9GI9fk6TnfnDaXxMsp3pe1IoP-td/pub\" target=\"_blank\">\"Montgomery Bus Boycott | American Freedom Stories | Biography\" Transcript</a>)</li><li><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672108&amp;entry_id=1_urodmtyq\" target=\"_blank\">Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History</a> </span><br><iframe id=\"kaltura_player_1639672108\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672108&amp;entry_id=1_urodmtyq\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(02:01 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTwmhP4H3nj5DKEH8NbjPukBxI-FCMuEYmj-PklD0AbFL9b7ZMpHSlFd64o1t-jdqNED4f9NMxv5u_n/pub\" target=\"_blank\">\"Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History\" Transcript</a>)</li><li><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Ceasar Chavez: American Civil Rights Activist - Fast Facts | History &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672129&amp;entry_id=1_ct5bxyaz\" target=\"_blank\">Cesar Chavez: American Civil Rights Activist - Fast Facts | History</a> </span><br><iframe id=\"kaltura_player_1639672129\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672129&amp;entry_id=1_ct5bxyaz\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:11 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRYEOwuT06dqBgn71Wd35tplnhIxCbCYp4qVO61OYWxh-X0Qb_l_aNdDkJ3elGjzsA33sfPSMp0ZDAq/pub\" target=\"_blank\">\"Cesar Chavez: American Civil Rights Activist - Fast Facts | History\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672151&amp;entry_id=1_7vgh8r17\" target=\"_blank\"><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:15105,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}\">Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography</span></a><br><iframe id=\"kaltura_player_1639672151\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672151&amp;entry_id=1_7vgh8r17\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:48 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRbvp_tBPh-l565T-l946-OI63xIURF8ht-ssQle24yMbPX2aVc1TwfGnPClzc0T0T6Gu6OWbjIt1kY/pub\" target=\"_blank\">\"Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography\" Transcript</a>)&nbsp;</li><li><a class=\"inline_disabled\" style=\"font-family: inherit; font-size: 1rem;\" href=\"https://www.youtube.com/watch?v=OE6oS_3HSlM\" target=\"_blank\">Black Power</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/OE6oS_3HSlM?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:48 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTpl4U7dY7JCkh4sDbWKqnn0ANRbAKbof_4OClryvWZk0E1g6mGYqDZ5Lj_ZGuzUm4mTyavRpxCycm_/pub\" target=\"_blank\">\"Black Power\" Transcript</a>)</li></ul></li></ol><p>Answer <strong>both</strong> questions (Part I and Part II):</p><ol><li>Which blatant form of racism in the U.S. do you find most disturbing? Why?<ol style=\"list-style-type: lower-alpha;\"><li>Japanese Internment Camps.</li><li>Tuskegee Experiment.</li><li>Lynching.</li></ol></li><li>Which moment during the Civil Rights Movement had the most profound change? ​<ol style=\"list-style-type: lower-alpha;\"><li>Freedom Rides.</li><li>Brown vs Board of Education of Topeka.</li><li>Black Power Movement.</li><li>Nonviolent protests (eg. Rosa Parks, Martin Luther King Jr., Caesar Chavez, Red Power).</li></ol></li></ol><h3>Option 2: Color-Blind Racism</h3><ol><li>Watch the following videos:<ul><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=ZeQ4PiiiJWY\" target=\"_blank\">Color Blind Racism</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/ZeQ4PiiiJWY?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(06:45 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTXVHCuHjSthzY-nnR9NcODthyZpxLJq905yCi_6KN_I_AsD92Am6TUYrXpC0UNyeOi-v9ADXFNxPfU/pub\" target=\"_blank\">\"Color Blind Racism\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672169&amp;entry_id=1_6o7iyyuk\" target=\"_blank\">Ibram X. Kendi, Robin DiAngelo Discuss Race in America</a><br><iframe id=\"kaltura_player_1639672169\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672169&amp;entry_id=1_6o7iyyuk\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:27 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQhbz31fGj6dpZ0S6gfABJki9gymQlmdKZvLAGAmzkYnttKw79tV7VpwgCOGs3sToBAAbXBQBfJ9Svy/pub\" target=\"_blank\">\"Ibram X. Kendi, Robin DiAngelo Discuss Race in America\" Transcript</a>)</li></ul></li></ol><ol start=\"2\"><li>Study the following table:</li></ol><table style=\"border-collapse: collapse; width: 95.9343%; height: 943px;\" border=\"1\"><tbody><tr style=\"height: 55px;\"><td style=\"width: 99.9436%; height: 55px;\" colspan=\"3\" width=\"623\"><p style=\"text-align: center;\"><span style=\"font-size: 14pt;\"><strong>Bonilla-Silva Color-Blind Racism</strong></span></p></td></tr><tr style=\"height: 52px;\"><td style=\"width: 33.1891%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Color-Blind Racist Statement</strong></p></td><td style=\"width: 33.3396%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Bonilla-Silva's Typology (Brooks’ best guess)</strong></p></td><td style=\"width: 33.4149%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Issue with Statement</strong></p></td></tr><tr style=\"height: 172px;\"><td style=\"width: 33.1891%; height: 172px; text-align: center;\" width=\"207\"><p>“People are just people. I do not see color.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 172px; text-align: center;\" width=\"207\"><p>&nbsp;</p></td><td style=\"width: 33.4149%; height: 172px; text-align: center;\" width=\"207\"><p>“Colorblindness” negates the experiences of people of color.</p><p>&nbsp;</p><p>Closes off uncomfortable discussions about structural racism.</p></td></tr><tr style=\"height: 112px;\"><td style=\"width: 33.1891%; height: 112px; text-align: center;\" width=\"207\"><p>“It's not race, it's class.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 112px; text-align: center;\" width=\"207\"><p>Cultural racism</p></td><td style=\"width: 33.4149%; height: 112px; text-align: center;\" width=\"207\"><p>Social status and relative wealth do not protect minorities from racism.</p><p>&nbsp;</p></td></tr><tr style=\"height: 208px;\"><td style=\"width: 33.1891%; height: 208px; text-align: center;\" width=\"207\"><p>America is a land of opportunity. Minorities just need to “pull themselves from their bootstraps” like everybody else.</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 208px; text-align: center;\" width=\"207\"><p>Cultural racism.</p></td><td style=\"width: 33.4149%; height: 208px; text-align: center;\" width=\"207\"><p>Ignores that some groups have more structural opportunities to overcome.</p><p>&nbsp;</p><p>Also assumes that some minority groups have a character flaw.</p><p>&nbsp;</p></td></tr><tr style=\"height: 148px;\"><td style=\"width: 33.1891%; height: 148px; text-align: center;\" width=\"207\"><p>“Minorities hold themselves back, not racism.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 148px; text-align: center;\" width=\"207\"><p>Abstract liberalism.</p><p>&nbsp;</p><p>Cultural racism.</p></td><td style=\"width: 33.4149%; height: 148px; text-align: center;\" width=\"207\"><p>Focusing on minorities allows whites to minimize the minority experience.</p><p>&nbsp;</p></td></tr><tr style=\"height: 112px;\"><td style=\"width: 33.1891%; height: 112px; text-align: center;\" width=\"207\"><p>“Racism was a real thing in the past, but no longer exists.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 112px; text-align: center;\" width=\"207\"><p>Minimalization of racism.</p></td><td style=\"width: 33.4149%; height: 112px; text-align: center;\" width=\"207\"><p>Racism has changed. It is institutional (see health care, criminal justice, political, economic).</p><p>&nbsp;</p></td></tr></tbody></table><p>&nbsp;</p><ul><li style=\"list-style-type: none;\"><ul><li>Which color-blind statement do you feel is most common today? Why?</li><li>Bonilla-Silva discusses that it is common for many, especially whites, to use rhetorical strategies before stating a racist statement.<ul><li>For example, someone might say something like “I am not racist, but...”</li><li>What function do rhetorical strategies serve?</li><li>Why do you think people use rhetorical strategies?</li></ul></li></ul></li></ul><h3>For Both Options</h3><ol><li>Make an initial post by the midweek due date.<ul><li>Include the option you chose in your post.</li></ul></li><li>Respond to <em>at least</em> two of your classmates by the end of week due date.<ul><li>Support your decisions with data from reliable and academic sources and/or quotations from the readings.</li><li>Be active on the discussion board and check back often to see what others can teach you.<ul><li>If others respond to your post, respond to them and strike up a teaching conversation.</li></ul></li><li>To receive full points, be active and work with others to learn deeply.</li></ul></li></ol><h2>Note</h2><p>A substantive post includes one or more of the following:</p><ul><li>Thoughtful, insightful ideas or arguments on the topic:<ul><li>backed up with supportable data.</li></ul></li><li>Strong defense of your position.</li><li>Encouragement for others to participate.</li><li>Disputations of positions with which you do not agree.</li><li>References to the course material.</li><li>Source citations whenever possible.</li><li>References to this week's <a class=\"external\" href=\"http://www.byui.edu/devotionals/\" target=\"_blank\">BYU-Idaho devotional</a>.</li></ul></div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-01-28T19:18:00Z",
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 15,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:10:59Z",
+      "updated_at": "2023-01-20T16:10:42Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 3,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjU1ZjZkNjA3LTI2ZDUtNDBlNi04MDNiLWUzOTBlYThkZDkyNCIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVx1MDAzY2gyXHUwMDNlT3ZlcnZpZXdcdTAwM2MvaDJcdTAwM2VcdTAwM2N1bFx1MDAzZVx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlVGFzazpcdTAwM2Mvc3Ryb25nXHUwMDNlIERpc2N1c3MgdGhlIGNvbnNlcXVlbmNlcyBvZiBoaXN0b3JpY2FsIGV2ZW50cyBwcmlvciB0byBhbmQgZHVyaW5nIHRoZSBDaXZpbCBSaWdodHMgTW92ZW1lbnQuXHUwMDNjL2xpXHUwMDNlXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VQdXJwb3NlOlx1MDAzYy9zdHJvbmdcdTAwM2UgRGVlcGVuIHVuZGVyc3RhbmRpbmcgb2YgaG93IGhpc3RvcmljYWwgZXZlbnRzIHByaW9yIHRvIGFuZCBkdXJpbmcgdGhlIENpdmlsIFJpZ2h0cyBNb3ZlbWVudCBpbXBhY3RlZCByYWNpYWwgcmVsYXRpb25zaGlwcy5cdTAwM2MvbGlcdTAwM2VcdTAwM2MvdWxcdTAwM2VcdTAwM2NwXHUwMDNlT3I6XHUwMDNjL3BcdTAwM2VcdTAwM2N1bFx1MDAzZVx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlVGFzazpcdTAwM2Mvc3Ryb25nXHUwMDNlIERpc2N1c3MgdGhlIHZhcmlvdXMgdHlwZSBvZiBjb2xvci1ibGluZCByYWNpc20gYW5kIHRoZSBkYW5nZXJzIG9mIHJoZXRvcmljYWwgc3RyYXRlZ2llcy5cdTAwM2MvbGlcdTAwM2VcdTAwM2NsaVx1MDAzZVx1MDAzY3N0cm9uZ1x1MDAzZVB1cnBvc2U6XHUwMDNjL3N0cm9uZ1x1MDAzZSBVbmRlcnN0YW5kIHRoZSB2YXJpb3VzIHR5cG9sb2dpZXMgb2YgY29sb3ItYmxpbmQgcmFjaXNtLlx1MDAzYy9saVx1MDAzZVx1MDAzYy91bFx1MDAzZVx1MDAzY2gyXHUwMDNlSW5zdHJ1Y3Rpb25zXHUwMDNjL2gyXHUwMDNlXHUwMDNjcFx1MDAzZUNob29zZSBvbmUgb2YgdGhlIG9wdGlvbnMgYW5kIHdhdGNoIHRoZSBjb3JyZXNwb25kaW5nIHZpZGVvczpcdTAwM2MvcFx1MDAzZVx1MDAzY2gzXHUwMDNlT3B0aW9uIDFcdTAwM2MvaDNcdTAwM2VcdTAwM2NvbFx1MDAzZVx1MDAzY2xpXHUwMDNlV2F0Y2ggdGhlIGZvbGxvd2luZyB2aWRlb3M6XHUwMDNjdWxcdTAwM2VcdTAwM2NsaVx1MDAzZVx1MDAzY2EgY2xhc3M9XCJpbmxpbmVfZGlzYWJsZWRcIiBocmVmPVwiaHR0cHM6Ly9jZG5hcGlzZWMua2FsdHVyYS5jb20vcC8xMTU3NjEyL3NwLzExNTc2MTIwMC9lbWJlZElmcmFtZUpzL3VpY29uZl9pZC80MjQzODI2Mi9wYXJ0bmVyX2lkLzExNTc2MTI_aWZyYW1lZW1iZWQ9dHJ1ZVx1MDAyNmFtcDtwbGF5ZXJJZD1rYWx0dXJhX3BsYXllcl8xNjM5NjcyMDU1XHUwMDI2YW1wO2VudHJ5X2lkPTFfY2hubW1hMXBcIiB0YXJnZXQ9XCJfYmxhbmtcIlx1MDAzZUdlb3JnZSBUYWtlaSBvbiBMaWZlIEluc2lkZSBhIEphcGFuZXNlIC4uLiAodHJ1bmNhdGVkKSJ9.piKxO0ICuN5br-eIumTEpNmEBTzUvqmcbZEo9P7p8RU",
+      "lti_context_id": "55f6d607-26d5-40e6-803b-e390ea8dd924",
+      "course_id": 179890,
+      "name": "W04 SOC 323 Discussion: Civil Rights & Color-Blind Racism",
+      "submission_types": [
+        "discussion_topic"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425577",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "use_rubric_for_grading": true,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_1237",
+          "points": 5,
+          "description": "Initial post meets the standards of a substantial post",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_9836",
+              "points": 5,
+              "description": "Excellent",
+              "long_description": "Students present thoughtful, insightful ideas or arguments on the topic and encourage others to participate. Students defend their position and dispute positions they do not agree with. Students reference course material and this week's BYU-Idaho devotional,  citing sources whenever possible."
+            },
+            {
+              "id": "_8155",
+              "points": 2.5,
+              "description": "Needs Improvement",
+              "long_description": ""
+            },
+            {
+              "id": "_1109",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_4909",
+          "points": 5,
+          "description": "There are at least 2 subsequent posts throughout the week",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_8",
+              "points": 5,
+              "description": "Excellent",
+              "long_description": "Students made at least two subsequent posts throughout the week."
+            },
+            {
+              "id": "_3447",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Students made fewer than two subsequent posts throughout the week."
+            }
+          ]
+        },
+        {
+          "id": "_7944",
+          "points": 4,
+          "description": "Subsequent posts meet the standards of a substantial post",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_4905",
+              "points": 4,
+              "description": "Excellent",
+              "long_description": "Students present thoughtful, insightful ideas or arguments on the topic and encourage others to participate. Students defend their position and dispute positions they do not agree with. Students reference course material and this week's BYU-Idaho devotional, citing sources whenever possible."
+            },
+            {
+              "id": "_3625",
+              "points": 2,
+              "description": "Needs Improvement",
+              "long_description": ""
+            },
+            {
+              "id": "_9691",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_6384",
+          "points": 1,
+          "description": "Extra effort is apparent",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_8407",
+              "points": 1,
+              "description": "Meets Standard",
+              "long_description": "There are more than 2 subsequent posts. Posts are not all made at the same time (at the midweek due date). \nThe effort to engage with others is apparent."
+            },
+            {
+              "id": "_1989",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486198,
+        "title": "Updated DB Rubric",
+        "points_possible": 15,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "discussion_topic": {
+        "id": 5349934,
+        "title": "W04 SOC 323 Discussion: Civil Rights & Color-Blind Racism",
+        "last_reply_at": null,
+        "created_at": "2022-01-28T18:10:59Z",
+        "delayed_post_at": null,
+        "posted_at": null,
+        "assignment_id": 8425577,
+        "root_topic_id": null,
+        "position": 12,
+        "podcast_has_student_posts": false,
+        "discussion_type": "threaded",
+        "lock_at": null,
+        "allow_rating": false,
+        "only_graders_can_rate": false,
+        "sort_by_rating": false,
+        "is_section_specific": false,
+        "anonymous_state": null,
+        "user_name": null,
+        "discussion_subentry_count": 0,
+        "permissions": {
+          "attach": true,
+          "update": true,
+          "reply": true,
+          "delete": true
+        },
+        "require_initial_post": true,
+        "user_can_see_posts": true,
+        "podcast_url": null,
+        "read_state": "unread",
+        "unread_count": 0,
+        "subscribed": false,
+        "attachments": [],
+        "published": true,
+        "can_unpublish": true,
+        "locked": false,
+        "can_lock": true,
+        "comments_disabled": false,
+        "author": {},
+        "html_url": "https://byui.instructure.com/courses/179890/discussion_topics/5349934",
+        "url": "https://byui.instructure.com/courses/179890/discussion_topics/5349934",
+        "pinned": true,
+        "group_category_id": 209048,
+        "can_group": true,
+        "topic_children": [],
+        "group_topic_children": [],
+        "locked_for_user": false,
+        "message": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\"><h2>Overview</h2><ul><li><strong>Task:</strong> Discuss the consequences of historical events prior to and during the Civil Rights Movement.</li><li><strong>Purpose:</strong> Deepen understanding of how historical events prior to and during the Civil Rights Movement impacted racial relationships.</li></ul><p>Or:</p><ul><li><strong>Task:</strong> Discuss the various type of color-blind racism and the dangers of rhetorical strategies.</li><li><strong>Purpose:</strong> Understand the various typologies of color-blind racism.</li></ul><h2>Instructions</h2><p>Choose one of the options and watch the corresponding videos:</p><h3>Option 1</h3><ol><li>Watch the following videos:<ul><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672055&amp;entry_id=1_chnmma1p\" target=\"_blank\">George Takei on Life Inside a Japanese Internment Camp During WWII</a><br><iframe id=\"kaltura_player_1639672055\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672055&amp;entry_id=1_chnmma1p\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(07:37 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vR11bvJ1IPmtvj3PrGQJ3mNLN6sSS6kPKffIXeu_vC00fuuP-MicXeL5RZR7MwQecF_qVFgdiMAsPI_/pub\" target=\"_blank\">\"George Takei on Life Inside a Japanese Internment Camp During WWII\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=9Rg75zEVB1g\" target=\"_blank\">The Tuskegee Syphilis Experiment and Medical Ethics</a>&nbsp;<br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/9Rg75zEVB1g?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:16 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vS3PKkV_pR4NzgGia9NtmIaCF_6l5u99agicykOvZYmp8MFQB5BtielIAxUIHDgioYaCWhY5zoDODHa/pub\" target=\"_blank\">\"The Tuskegee Syphilis Experiment and Medical Ethics\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=hPdh46k7b38\" target=\"_blank\">The Origins of Lynching Culture in the United States</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/hPdh46k7b38?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(10:30 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vSmLtM254lPLPvIdh9vXiql6CrYnfv7QRLTeXWgYHWZB6MVCPl9NAA8FmOcFnpGPf0o46Et6iFceUq8/pub\" target=\"_blank\">\"The Origins of Lynching Culture in the United States\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672076&amp;entry_id=1_dactgv1f\" target=\"_blank\"><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Montgomery Bus Boycott | American Freedom Stories | Biography&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Montgomery Bus Boycott | American Freedom Stories | Biography</span></a><br><iframe id=\"kaltura_player_1639672076\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672076&amp;entry_id=1_dactgv1f\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(03:52 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRRBFpjXH3mUeG4nH33VX-jUToRKDIpwGPcu2584ZaffUgmeSdC9GI9fk6TnfnDaXxMsp3pe1IoP-td/pub\" target=\"_blank\">\"Montgomery Bus Boycott | American Freedom Stories | Biography\" Transcript</a>)</li><li><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672108&amp;entry_id=1_urodmtyq\" target=\"_blank\">Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History</a> </span><br><iframe id=\"kaltura_player_1639672108\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672108&amp;entry_id=1_urodmtyq\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(02:01 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTwmhP4H3nj5DKEH8NbjPukBxI-FCMuEYmj-PklD0AbFL9b7ZMpHSlFd64o1t-jdqNED4f9NMxv5u_n/pub\" target=\"_blank\">\"Rosa Parks and the Montgomery Bus Boycott: 60 Years Later - Fast Facts | History\" Transcript</a>)</li><li><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Ceasar Chavez: American Civil Rights Activist - Fast Facts | History &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672129&amp;entry_id=1_ct5bxyaz\" target=\"_blank\">Cesar Chavez: American Civil Rights Activist - Fast Facts | History</a> </span><br><iframe id=\"kaltura_player_1639672129\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672129&amp;entry_id=1_ct5bxyaz\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:11 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRYEOwuT06dqBgn71Wd35tplnhIxCbCYp4qVO61OYWxh-X0Qb_l_aNdDkJ3elGjzsA33sfPSMp0ZDAq/pub\" target=\"_blank\">\"Cesar Chavez: American Civil Rights Activist - Fast Facts | History\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672151&amp;entry_id=1_7vgh8r17\" target=\"_blank\"><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:15105,&quot;3&quot;:{&quot;1&quot;:0},&quot;11&quot;:4,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}\">Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography</span></a><br><iframe id=\"kaltura_player_1639672151\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672151&amp;entry_id=1_7vgh8r17\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:48 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRbvp_tBPh-l565T-l946-OI63xIURF8ht-ssQle24yMbPX2aVc1TwfGnPClzc0T0T6Gu6OWbjIt1kY/pub\" target=\"_blank\">\"Martin Luther King, Jr. - Minister and Civil Rights Activist | Biography\" Transcript</a>)&nbsp;</li><li><a class=\"inline_disabled\" style=\"font-family: inherit; font-size: 1rem;\" href=\"https://www.youtube.com/watch?v=OE6oS_3HSlM\" target=\"_blank\">Black Power</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/OE6oS_3HSlM?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:48 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTpl4U7dY7JCkh4sDbWKqnn0ANRbAKbof_4OClryvWZk0E1g6mGYqDZ5Lj_ZGuzUm4mTyavRpxCycm_/pub\" target=\"_blank\">\"Black Power\" Transcript</a>)</li></ul></li></ol><p>Answer <strong>both</strong> questions (Part I and Part II):</p><ol><li>Which blatant form of racism in the U.S. do you find most disturbing? Why?<ol style=\"list-style-type: lower-alpha;\"><li>Japanese Internment Camps.</li><li>Tuskegee Experiment.</li><li>Lynching.</li></ol></li><li>Which moment during the Civil Rights Movement had the most profound change? ​<ol style=\"list-style-type: lower-alpha;\"><li>Freedom Rides.</li><li>Brown vs Board of Education of Topeka.</li><li>Black Power Movement.</li><li>Nonviolent protests (eg. Rosa Parks, Martin Luther King Jr., Caesar Chavez, Red Power).</li></ol></li></ol><h3>Option 2: Color-Blind Racism</h3><ol><li>Watch the following videos:<ul><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=ZeQ4PiiiJWY\" target=\"_blank\">Color Blind Racism</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/ZeQ4PiiiJWY?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(06:45 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTXVHCuHjSthzY-nnR9NcODthyZpxLJq905yCi_6KN_I_AsD92Am6TUYrXpC0UNyeOi-v9ADXFNxPfU/pub\" target=\"_blank\">\"Color Blind Racism\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672169&amp;entry_id=1_6o7iyyuk\" target=\"_blank\">Ibram X. Kendi, Robin DiAngelo Discuss Race in America</a><br><iframe id=\"kaltura_player_1639672169\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672169&amp;entry_id=1_6o7iyyuk\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:27 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQhbz31fGj6dpZ0S6gfABJki9gymQlmdKZvLAGAmzkYnttKw79tV7VpwgCOGs3sToBAAbXBQBfJ9Svy/pub\" target=\"_blank\">\"Ibram X. Kendi, Robin DiAngelo Discuss Race in America\" Transcript</a>)</li></ul></li></ol><ol start=\"2\"><li>Study the following table:</li></ol><table style=\"border-collapse: collapse; width: 95.9343%; height: 943px;\" border=\"1\"><tbody><tr style=\"height: 55px;\"><td style=\"width: 99.9436%; height: 55px;\" colspan=\"3\" width=\"623\"><p style=\"text-align: center;\"><span style=\"font-size: 14pt;\"><strong>Bonilla-Silva Color-Blind Racism</strong></span></p></td></tr><tr style=\"height: 52px;\"><td style=\"width: 33.1891%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Color-Blind Racist Statement</strong></p></td><td style=\"width: 33.3396%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Bonilla-Silva's Typology (Brooks’ best guess)</strong></p></td><td style=\"width: 33.4149%; text-align: center; height: 52px;\" width=\"207\"><p><strong>Issue with Statement</strong></p></td></tr><tr style=\"height: 172px;\"><td style=\"width: 33.1891%; height: 172px; text-align: center;\" width=\"207\"><p>“People are just people. I do not see color.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 172px; text-align: center;\" width=\"207\"><p>&nbsp;</p></td><td style=\"width: 33.4149%; height: 172px; text-align: center;\" width=\"207\"><p>“Colorblindness” negates the experiences of people of color.</p><p>&nbsp;</p><p>Closes off uncomfortable discussions about structural racism.</p></td></tr><tr style=\"height: 112px;\"><td style=\"width: 33.1891%; height: 112px; text-align: center;\" width=\"207\"><p>“It's not race, it's class.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 112px; text-align: center;\" width=\"207\"><p>Cultural racism</p></td><td style=\"width: 33.4149%; height: 112px; text-align: center;\" width=\"207\"><p>Social status and relative wealth do not protect minorities from racism.</p><p>&nbsp;</p></td></tr><tr style=\"height: 208px;\"><td style=\"width: 33.1891%; height: 208px; text-align: center;\" width=\"207\"><p>America is a land of opportunity. Minorities just need to “pull themselves from their bootstraps” like everybody else.</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 208px; text-align: center;\" width=\"207\"><p>Cultural racism.</p></td><td style=\"width: 33.4149%; height: 208px; text-align: center;\" width=\"207\"><p>Ignores that some groups have more structural opportunities to overcome.</p><p>&nbsp;</p><p>Also assumes that some minority groups have a character flaw.</p><p>&nbsp;</p></td></tr><tr style=\"height: 148px;\"><td style=\"width: 33.1891%; height: 148px; text-align: center;\" width=\"207\"><p>“Minorities hold themselves back, not racism.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 148px; text-align: center;\" width=\"207\"><p>Abstract liberalism.</p><p>&nbsp;</p><p>Cultural racism.</p></td><td style=\"width: 33.4149%; height: 148px; text-align: center;\" width=\"207\"><p>Focusing on minorities allows whites to minimize the minority experience.</p><p>&nbsp;</p></td></tr><tr style=\"height: 112px;\"><td style=\"width: 33.1891%; height: 112px; text-align: center;\" width=\"207\"><p>“Racism was a real thing in the past, but no longer exists.”</p><p>&nbsp;</p></td><td style=\"width: 33.3396%; height: 112px; text-align: center;\" width=\"207\"><p>Minimalization of racism.</p></td><td style=\"width: 33.4149%; height: 112px; text-align: center;\" width=\"207\"><p>Racism has changed. It is institutional (see health care, criminal justice, political, economic).</p><p>&nbsp;</p></td></tr></tbody></table><p>&nbsp;</p><ul><li style=\"list-style-type: none;\"><ul><li>Which color-blind statement do you feel is most common today? Why?</li><li>Bonilla-Silva discusses that it is common for many, especially whites, to use rhetorical strategies before stating a racist statement.<ul><li>For example, someone might say something like “I am not racist, but...”</li><li>What function do rhetorical strategies serve?</li><li>Why do you think people use rhetorical strategies?</li></ul></li></ul></li></ul><h3>For Both Options</h3><ol><li>Make an initial post by the midweek due date.<ul><li>Include the option you chose in your post.</li></ul></li><li>Respond to <em>at least</em> two of your classmates by the end of week due date.<ul><li>Support your decisions with data from reliable and academic sources and/or quotations from the readings.</li><li>Be active on the discussion board and check back often to see what others can teach you.<ul><li>If others respond to your post, respond to them and strike up a teaching conversation.</li></ul></li><li>To receive full points, be active and work with others to learn deeply.</li></ul></li></ol><h2>Note</h2><p>A substantive post includes one or more of the following:</p><ul><li>Thoughtful, insightful ideas or arguments on the topic:<ul><li>backed up with supportable data.</li></ul></li><li>Strong defense of your position.</li><li>Encouragement for others to participate.</li><li>Disputations of positions with which you do not agree.</li><li>References to the course material.</li><li>Source citations whenever possible.</li><li>References to this week's <a class=\"external\" href=\"http://www.byui.edu/devotionals/\" target=\"_blank\">BYU-Idaho devotional</a>.</li></ul></div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+        "subscription_hold": "not_in_group_set",
+        "todo_date": null,
+        "is_announcement": false
+      },
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425577/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425543,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h4>Attend Your Group Meeting</h4>\n<ul>\n<li>Stay the whole time.</li>\n<li>Be an active participant.&nbsp;</li>\n</ul>\n<h4>After Your Meeting Has Ended</h4>\n<ul>\n<li>Use your group’s discussion to improve your worksheet answers.\n<ul>\n<li>Submit your completed<span style=\"color: #236fa1;\"> </span> <a title=\"W04 Zoom Prep: Color Blind Racism\" href=\"https://byui.instructure.com/courses/179890/assignments/8425607\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/assignments/8425607\" data-api-returntype=\"Assignment\">W04 Zoom Prep: Racial Issues Today</a>&nbsp;worksheet on the page where the document was downloaded.</li>\n</ul>\n</li>\n</ul>\n<h4>Report Your Participation</h4>\n<ul>\n<li>Everyone must report their individual participation by completing this quiz.\n<ul>\n<li>Please answer honestly.</li>\n</ul>\n</li>\n</ul>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-01-28T19:18:00Z",
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 5,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:10:50Z",
+      "updated_at": "2023-01-20T16:10:39Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 4,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjQ0Y2U2Y2QxLWM1YWEtNDRiOS04NTk4LWQ3NDdkYjAwMWQwZiIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDRcdTAwM2VBdHRlbmQgWW91ciBHcm91cCBNZWV0aW5nXHUwMDNjL2g0XHUwMDNlXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VTdGF5IHRoZSB3aG9sZSB0aW1lLlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjbGlcdTAwM2VCZSBhbiBhY3RpdmUgcGFydGljaXBhbnQuXHUwMDI2bmJzcDtcdTAwM2MvbGlcdTAwM2Vcblx1MDAzYy91bFx1MDAzZVxuXHUwMDNjaDRcdTAwM2VBZnRlciBZb3VyIE1lZXRpbmcgSGFzIEVuZGVkXHUwMDNjL2g0XHUwMDNlXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VVc2UgeW91ciBncm91cOKAmXMgZGlzY3Vzc2lvbiB0byBpbXByb3ZlIHlvdXIgd29ya3NoZWV0IGFuc3dlcnMuXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VTdWJtaXQgeW91ciBjb21wbGV0ZWRcdTAwM2NzcGFuIHN0eWxlPVwiY29sb3I6ICMyMzZmYTE7XCJcdTAwM2UgXHUwMDNjL3NwYW5cdTAwM2UgXHUwMDNjYSB0aXRsZT1cIlcwNCBab29tIFByZXA6IENvbG9yIEJsaW5kIFJhY2lzbVwiIGhyZWY9XCIvY291cnNlcy8xNzk4OTAvYXNzaWdubWVudHMvODQyNTYwN1wiXHUwMDNlVzA0IFpvb20gUHJlcDogUmFjaWFsIElzc3VlcyBUb2RheVx1MDAzYy9hXHUwMDNlXHUwMDI2bmJzcDt3b3Jrc2hlZXQgb24gdGhlIHBhZ2Ugd2hlcmUgdGhlIGRvY3VtZW50IHdhcyBkb3dubG9hZGVkLlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjL3VsXHUwMDNlXG5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzYy91bFx1MDAzZVxuXHUwMDNjaDRcdTAwM2VSZXBvcnQgWW91ciBQYXJ0aWNpcGF0aW9uXHUwMDNjL2g0XHUwMDNlXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VFdmVyeW9uZSBtdXN0IHJlcG9ydCB0aGVpciBpbmRpdmlkdWFsIHBhcnRpY2lwYXRpb24gYnkgY29tcGxldGluZyB0aGlzIHF1aXouXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VQbGVhc2UgYW5zd2VyIGhvbmVzdGx5Llx1MDAzYy9saVx1MDAzZVxuXHUwMDNjL3VsXHUwMDNlXG5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzYy91bFx1MDAzZVxuXHUwMDNjL2Rpdlx1MDAzZSJ9.juPxiuHj-n4KO-vvIhhP9vcJojJTuVpwFUwGpLWYB9A",
+      "lti_context_id": "44ce6cd1-c5aa-44b9-8598-d747db001d0f",
+      "course_id": 179890,
+      "name": "W04 Zoom Quiz: Participation Report - EVERYONE",
+      "submission_types": [
+        "online_quiz"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": true,
+      "can_duplicate": false,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425543",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "quiz_id": 3024873,
+      "anonymous_submissions": false,
+      "use_rubric_for_grading": false,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_8695",
+          "points": 5,
+          "description": "Description of criterion",
+          "long_description": "",
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "blank",
+              "points": 5,
+              "description": "Full Marks",
+              "long_description": ""
+            },
+            {
+              "id": "blank_2",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486316,
+        "title": "Some Rubric (1)",
+        "points_possible": 5,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/quizzes/3024873/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425599,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h2>Overview&nbsp;</h2>\n<ul>\n<li>\n<strong>Task:&nbsp;</strong>Use the<span>&nbsp;</span> <span>Perusall</span> <span>&nbsp;</span>link below to access&nbsp;<strong>part of Chapter 3: Racial Ideologies from the 1920s to the Present.</strong>\n</li>\n<li>\n<strong>Purpose:&nbsp;</strong>Collaborate with your classmates and instructor as you learn about&nbsp;<strong>Racial Ideologies from the 1920s to the Present </strong>together.</li>\n<li>\n<strong>Using Perusall:</strong> Can help you practice the learning model principle to \"love, serve, and teach one another.\"</li>\n</ul>\n<h2>Instructions</h2>\n<p>Note: This week is different in that you will be reading all of Chapter 3 and the first few pages of Chapter 4 of your textbook. Both deal with racial issues. This is the first reading this week.</p>\n<ol>\n<li>Read<span>&nbsp;</span><strong>Chapter 3: Racial Ideologies from the 1920s to the Present (section)</strong> <span>&nbsp;</span>in Persuall.</li>\n<li>Make <em>at least</em> <span> <strong>six</strong></span>&nbsp;entries in Perusall before the midweek due date.\n<ul>\n<li>The entries may be a combination of<span>&nbsp;</span>posts, questions, or replies.</li>\n<li>If you access Perusall through another method other than the link below, your score will<span>&nbsp;</span><strong>not</strong> <span>&nbsp;</span> <span>sync back to the grade book.&nbsp;</span>\n</li>\n</ul>\n</li>\n</ol>\n<p>For more information about this learning tool, you can visit the <a title=\"Perusall\" href=\"https://byui.instructure.com/courses/179890/pages/perusall\" target=\"_blank\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/pages/perusall\" data-api-returntype=\"Page\">about Perusall</a> page.</p>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": null,
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 20,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:07Z",
+      "updated_at": "2022-01-28T18:11:07Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 5,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjkyMzEwMmZkLTdhYTMtNDczNS04NDE0LTBlNjNiOGMyMGY1MCIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDJcdTAwM2VPdmVydmlld1x1MDAyNm5ic3A7XHUwMDNjL2gyXHUwMDNlXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2Vcblx1MDAzY3N0cm9uZ1x1MDAzZVRhc2s6XHUwMDI2bmJzcDtcdTAwM2Mvc3Ryb25nXHUwMDNlVXNlIHRoZVx1MDAzY3NwYW5cdTAwM2VcdTAwMjZuYnNwO1x1MDAzYy9zcGFuXHUwMDNlIFx1MDAzY3NwYW5cdTAwM2VQZXJ1c2FsbFx1MDAzYy9zcGFuXHUwMDNlIFx1MDAzY3NwYW5cdTAwM2VcdTAwMjZuYnNwO1x1MDAzYy9zcGFuXHUwMDNlbGluayBiZWxvdyB0byBhY2Nlc3NcdTAwMjZuYnNwO1x1MDAzY3N0cm9uZ1x1MDAzZXBhcnQgb2YgQ2hhcHRlciAzOiBSYWNpYWwgSWRlb2xvZ2llcyBmcm9tIHRoZSAxOTIwcyB0byB0aGUgUHJlc2VudC5cdTAwM2Mvc3Ryb25nXHUwMDNlXG5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmdcdTAwM2VQdXJwb3NlOlx1MDAyNm5ic3A7XHUwMDNjL3N0cm9uZ1x1MDAzZUNvbGxhYm9yYXRlIHdpdGggeW91ciBjbGFzc21hdGVzIGFuZCBpbnN0cnVjdG9yIGFzIHlvdSBsZWFybiBhYm91dFx1MDAyNm5ic3A7XHUwMDNjc3Ryb25nXHUwMDNlUmFjaWFsIElkZW9sb2dpZXMgZnJvbSB0aGUgMTkyMHMgdG8gdGhlIFByZXNlbnQgXHUwMDNjL3N0cm9uZ1x1MDAzZXRvZ2V0aGVyLlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjbGlcdTAwM2Vcblx1MDAzY3N0cm9uZ1x1MDAzZVVzaW5nIFBlcnVzYWxsOlx1MDAzYy9zdHJvbmdcdTAwM2UgQ2FuIGhlbHAgeW91IHByYWN0aWNlIHRoZSBsZWFybmluZyBtb2RlbCBwcmluY2lwbGUgdG8gXCJsb3ZlLCBzZXJ2ZSwgYW5kIHRlYWNoIG9uZSBhbm90aGVyLlwiXHUwMDNjL2xpXHUwMDNlXG5cdTAwM2MvdWxcdTAwM2Vcblx1MDAzY2gyXHUwMDNlSW5zdHJ1Y3Rpb25zXHUwMDNjL2gyXHUwMDNlXG5cdTAwM2NwXHUwMDNlTm90ZTogVGhpcyB3ZWVrIGlzIGRpZmZlcmVudCBpbiB0aGF0IHlvdSB3aWxsIGJlIHJlYWRpbmcgYWxsIG9mIENoYXB0ZXIgMyBhbmQgdGhlIGZpcnN0IGZldyBwYWdlcyBvZiBDaGFwdGVyIDQgb2YgeW91ciB0ZXh0Ym9vay4gQm90aCBkZWFsIHdpdGggcmFjaWFsIGlzc3Vlcy4gVGhpcyBpcyB0aGUgZmlyc3QgcmVhZGluZyB0aGlzIHdlZWsuXHUwMDNjL3BcdTAwM2Vcblx1MDAzY29sXHUwMDNlXG5cdTAwM2NsaVx1MDAzZVJlYWRcdTAwM2NzcGFuXHUwMDNlXHUwMDI2bmJzcDtcdTAwM2Mvc3Bhblx1MDAzZVx1MDAzY3N0cm9uZ1x1MDAzZUNoYXB0ZXIgMzogUmFjaWFsIElkZW9sb2dpZXMgZnJvbSB0aGUgMTkyMHMgdG8gdGhlIFByZXNlbnQgKHNlY3Rpb24pXHUwMDNjL3N0cm9uZ1x1MDAzZSBcdTAwM2NzcGFuXHUwMDNlXHUwMDI2bmJzcDtcdTAwM2Mvc3Bhblx1MDAzZWluIFBlcnN1YWxsLlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjbGkuLi4gKHRydW5jYXRlZCkifQ.FcGN9ejeJim10nkgDdIgsjAvNozsOenreByslY6T9l8",
+      "lti_context_id": "923102fd-7aa3-4735-8414-0e63b8c20f50",
+      "course_id": 179890,
+      "name": "W04 Perusall Reading: Chapter 3",
+      "submission_types": [
+        "external_tool"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": false,
+      "is_quiz_assignment": false,
+      "can_duplicate": false,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "external_tool_tag_attributes": {
+        "url": "https://app.perusall.com/lti/launch",
+        "new_tab": true,
+        "resource_link_id": "9a0f43da9d229f76e4b44d6c06d44731290f7c57",
+        "external_data": "",
+        "content_type": "ContextExternalTool",
+        "content_id": 103,
+        "custom_params": null
+      },
+      "muted": true,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425599",
+      "has_overrides": false,
+      "url": "https://byui.instructure.com/api/v1/courses/179890/external_tools/sessionless_launch?assignment_id=8425599&launch_type=assessment",
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425599/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425601,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h2><span>Overview</span></h2>\n<ul>\n<li>\n<strong>Task:&nbsp;</strong>Use the Perusall link below to access <strong>Chapter 4: Individual and Structural Racism</strong>&nbsp;and learn together with some of your classmates.&nbsp;</li>\n<li>\n<span style=\"color: #34495e;\"><strong>Purpose: </strong></span>Collaborate with your classmates and instructor as you learn about Individual and Structural Racism<span style=\"color: #e03e2d;\"><strong><em> <span style=\"color: #34495e;\">&nbsp;</span> </em></strong> <span style=\"color: #000000;\"> <span style=\"color: #34495e;\">together</span> </span> </span> <span style=\"color: #34495e;\">.</span>\n</li>\n<li>\n<strong>Using Perusall: </strong>Working together you will be able to apply the Learning Model Principle of &nbsp;\"love, serve, and teach one another.\"</li>\n</ul>\n<h2>Instructions</h2>\n<p>Each week you will access Perusall and collaborate with your class to complete your textbook reading. The more engaged you are, the deeper your learning will be.&nbsp;</p>\n<ol>\n<li>\n<strong>Read Chapter 4: Individual and Structural Discrimination</strong>&nbsp;in Persuall.</li>\n<li>Make <em>at least</em> two entries in Perusall before the midweek due date.\n<ul>\n<li>The entries may be a combination of posts, questions, or replies.&nbsp;</li>\n<li>Entries that display critical thinking and engagement with others that promote deeper learning will score best.</li>\n<li>\n<span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">If you access Perusall through another method than the link below, your score will</span> <strong style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">not </strong><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">sync back to the grade book.&nbsp;</span>\n</li>\n</ul>\n</li>\n</ol>\n<p><span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">For more information about this learning tool, you can select this <a title=\"Perusall\" href=\"https://byui.instructure.com/courses/179890/pages/perusall\" target=\"_blank\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/pages/perusall\" data-api-returntype=\"Page\">about Perusall</a>&nbsp;link.</span></p>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": null,
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 10,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:07Z",
+      "updated_at": "2022-01-28T18:11:07Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 6,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjBjY2I4ZGE2LTNkYWUtNDU5Yy1iOTMyLWQ5YTEzM2IxM2I3YyIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDJcdTAwM2VcdTAwM2NzcGFuXHUwMDNlT3ZlcnZpZXdcdTAwM2Mvc3Bhblx1MDAzZVx1MDAzYy9oMlx1MDAzZVxuXHUwMDNjdWxcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmdcdTAwM2VUYXNrOlx1MDAyNm5ic3A7XHUwMDNjL3N0cm9uZ1x1MDAzZVVzZSB0aGUgUGVydXNhbGwgbGluayBiZWxvdyB0byBhY2Nlc3MgXHUwMDNjc3Ryb25nXHUwMDNlQ2hhcHRlciA0OiBJbmRpdmlkdWFsIGFuZCBTdHJ1Y3R1cmFsIFJhY2lzbVx1MDAzYy9zdHJvbmdcdTAwM2VcdTAwMjZuYnNwO2FuZCBsZWFybiB0b2dldGhlciB3aXRoIHNvbWUgb2YgeW91ciBjbGFzc21hdGVzLlx1MDAyNm5ic3A7XHUwMDNjL2xpXHUwMDNlXG5cdTAwM2NsaVx1MDAzZVxuXHUwMDNjc3BhbiBzdHlsZT1cImNvbG9yOiAjMzQ0OTVlO1wiXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlUHVycG9zZTogXHUwMDNjL3N0cm9uZ1x1MDAzZVx1MDAzYy9zcGFuXHUwMDNlQ29sbGFib3JhdGUgd2l0aCB5b3VyIGNsYXNzbWF0ZXMgYW5kIGluc3RydWN0b3IgYXMgeW91IGxlYXJuIGFib3V0IEluZGl2aWR1YWwgYW5kIFN0cnVjdHVyYWwgUmFjaXNtXHUwMDNjc3BhbiBzdHlsZT1cImNvbG9yOiAjZTAzZTJkO1wiXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlXHUwMDNjZW1cdTAwM2UgXHUwMDNjc3BhbiBzdHlsZT1cImNvbG9yOiAjMzQ0OTVlO1wiXHUwMDNlXHUwMDI2bmJzcDtcdTAwM2Mvc3Bhblx1MDAzZSBcdTAwM2MvZW1cdTAwM2VcdTAwM2Mvc3Ryb25nXHUwMDNlIFx1MDAzY3NwYW4gc3R5bGU9XCJjb2xvcjogIzAwMDAwMDtcIlx1MDAzZSBcdTAwM2NzcGFuIHN0eWxlPVwiY29sb3I6ICMzNDQ5NWU7XCJcdTAwM2V0b2dldGhlclx1MDAzYy9zcGFuXHUwMDNlIFx1MDAzYy9zcGFuXHUwMDNlIFx1MDAzYy9zcGFuXHUwMDNlIFx1MDAzY3NwYW4gc3R5bGU9XCJjb2xvcjogIzM0NDk1ZTtcIlx1MDAzZS5cdTAwM2Mvc3Bhblx1MDAzZVxuXHUwMDNjL2xpXHUwMDNlXG5cdTAwM2NsaVx1MDAzZVxuXHUwMDNjc3Ryb25nXHUwMDNlVXNpbmcgUGVydXNhbGw6IFx1MDAzYy9zdHJvbmdcdTAwM2VXb3JraW5nIHRvZ2V0aGVyIHlvdSB3aWxsIGJlIGFibGUgdG8gYXBwbHkgdGhlIExlYXJuaW5nIE1vZGVsIFByaW5jaXBsZSBvZiBcdTAwMjZuYnNwO1wibG92ZSwgc2VydmUsIGFuZCB0ZWFjaCBvbmUgYW5vdGhlci5cIlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjL3VsXHUwMDNlXG5cdTAwM2NoMlx1MDAzZUluc3RydWN0aW9uc1x1MDAzYy9oMlx1MDAzZVxuXHUwMDNjcFx1MDAzZUVhY2ggd2VlayB5b3Ugd2lsbCBhY2Nlc3MgUGVydXNhbGwgYW5kIGNvbGxhYm9yYXRlIHdpdGggeW91ciBjbGFzcyB0byBjb21wbGV0ZSB5b3VyIHRleHRib29rIHJlYWRpbmcuIFRoZSBtb3JlIGVuZ2FnZWQgeW91IGFyZS4uLiAodHJ1bmNhdGVkKSJ9.IIGFzq4rcOYBlH04VgIHyeciMoiU2bFfQA_Bi-svpvM",
+      "lti_context_id": "0ccb8da6-3dae-459c-b932-d9a133b13b7c",
+      "course_id": 179890,
+      "name": "W04 Perusall Reading: Chapter 4 (partial)",
+      "submission_types": [
+        "external_tool"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": false,
+      "is_quiz_assignment": false,
+      "can_duplicate": false,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "external_tool_tag_attributes": {
+        "url": "https://app.perusall.com/lti/launch",
+        "new_tab": true,
+        "resource_link_id": "33ebecf549a868279fdfd6e3227d7eacdd586982",
+        "external_data": "",
+        "content_type": "ContextExternalTool",
+        "content_id": 103,
+        "custom_params": null
+      },
+      "muted": true,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425601",
+      "has_overrides": false,
+      "url": "https://byui.instructure.com/api/v1/courses/179890/external_tools/sessionless_launch?assignment_id=8425601&launch_type=assessment",
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425601/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425605,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h2>\n    <span>Overview&nbsp;</span>\n</h2>\n<ul>\n    <li>\n<strong>Task:&nbsp;</strong>Each Lead Student will submit a recording of this week's Zoom meeting.</li>\n    <li>\n<strong style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">Purpose:</strong>\n        <span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\"> The recording enables the Instructor to know how each group is doing and offer assistance if necessary.</span>\n    </li>\n</ul>\n<h2>Zoom Meeting Instructions&nbsp;</h2>\n<ol>\n    <li>Meet with your group (see Activity Instructions below).\n        <br>\n        <ul>\n            <li>Use&nbsp;<a href=\"http://byu-idaho.screenstepslive.com/s/16998/m/71699\" target=\"_blank\">Zoom Help </a>Guides to&nbsp;set&nbsp;up your Zoom profile.&nbsp;</li>\n            <li>Be sure to record your group meeting in the cloud.\n                <ul>\n                    <li>For other Zoom questions see&nbsp;<a href=\"https://byui.zoom.us/livetraining\" target=\"_blank\">Live Training for Zoom</a>.</li>\n                </ul>\n            </li>\n        </ul>\n    </li>\n</ol>\n<h3>Discuss Together</h3>\n<ol>\n    <li>Discuss your thoughts from your worksheet&nbsp;with others in your group.\n        <ul>\n            <li>Give<span>&nbsp;</span><strong>creative,&nbsp;critical,</strong> and&nbsp;<strong>specific responses.</strong>\n</li>\n        </ul>\n    </li>\n</ol>\n<h3>Lead Student Only Responsibilities</h3>\n<ol>\n    <li>If you are the <strong>lead student</strong> this week you will have the following<strong> extra responsibilities</strong>:\n        <ul>\n            <li>Be sure to&nbsp;<strong>record</strong>&nbsp;the Zoom discussion.</li>\n            <li>When the meeting is over, submit the following three pieces of information:\n                <ul style=\"list-style-type: square;\">\n                    <li>Group&nbsp;name and number&nbsp;(for example, Group 3: Tuesday Morning).</li>\n                    <li>The&nbsp;URL link of your recorded meeting.</li>\n                    <li>The names of all those who&nbsp;actively participated&nbsp;in the meeting.</li>\n                </ul>\n            </li>\n            <li>\n<strong>Note</strong>:&nbsp;This is a group submission.&nbsp;Only the group leader needs to post the information for the group for everyone to complete this assignment. However,<strong>&nbsp;</strong>failing to post the information will affect the scores of <strong>everyone </strong>in the group. As a courtesy, let your group members know when you have completed this responsibility.</li>\n        </ul>\n    </li>\n</ol>\n<h2>After the Meeting</h2>\n<ol>\n    <li>Each Lead Student will submit a link to the Zoom meeting recording.&nbsp;\n        <ul>\n            <li>This submission will count for all group members.&nbsp;</li>\n            <li>This responsibility should be shared among group members throughout the semester.&nbsp;</li>\n        </ul>\n    </li>\n    <li>All students need to complete their own <a style=\"font-family: inherit; font-size: 1rem;\" title=\"W04 Zoom Quiz: Participation Report\" href=\"https://byui.instructure.com/courses/179890/quizzes/3024873\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/quizzes/3024873\" data-api-returntype=\"Quiz\">W04 Zoom Quiz: Participation Report</a>\n        <span style=\"color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;\">.</span>\n    </li>\n</ol>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": null,
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 5,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:08Z",
+      "updated_at": "2022-01-28T18:11:08Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 7,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": 209048,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6ImJiNzZhOTY2LWVjNjMtNDAyYy1hZDU5LWQxMGJiMGU0Y2FjYyIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDJcdTAwM2VcbiAgICBcdTAwM2NzcGFuXHUwMDNlT3ZlcnZpZXdcdTAwMjZuYnNwO1x1MDAzYy9zcGFuXHUwMDNlXG5cdTAwM2MvaDJcdTAwM2Vcblx1MDAzY3VsXHUwMDNlXG4gICAgXHUwMDNjbGlcdTAwM2Vcblx1MDAzY3N0cm9uZ1x1MDAzZVRhc2s6XHUwMDI2bmJzcDtcdTAwM2Mvc3Ryb25nXHUwMDNlRWFjaCBMZWFkIFN0dWRlbnQgd2lsbCBzdWJtaXQgYSByZWNvcmRpbmcgb2YgdGhpcyB3ZWVrJ3MgWm9vbSBtZWV0aW5nLlx1MDAzYy9saVx1MDAzZVxuICAgIFx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmcgc3R5bGU9XCJjb2xvcjogdmFyKC0taWMtYnJhbmQtZm9udC1jb2xvci1kYXJrKTsgZm9udC1mYW1pbHk6IGluaGVyaXQ7IGZvbnQtc2l6ZTogMXJlbTtcIlx1MDAzZVB1cnBvc2U6XHUwMDNjL3N0cm9uZ1x1MDAzZVxuICAgICAgICBcdTAwM2NzcGFuIHN0eWxlPVwiY29sb3I6IHZhcigtLWljLWJyYW5kLWZvbnQtY29sb3ItZGFyayk7IGZvbnQtZmFtaWx5OiBpbmhlcml0OyBmb250LXNpemU6IDFyZW07XCJcdTAwM2UgVGhlIHJlY29yZGluZyBlbmFibGVzIHRoZSBJbnN0cnVjdG9yIHRvIGtub3cgaG93IGVhY2ggZ3JvdXAgaXMgZG9pbmcgYW5kIG9mZmVyIGFzc2lzdGFuY2UgaWYgbmVjZXNzYXJ5Llx1MDAzYy9zcGFuXHUwMDNlXG4gICAgXHUwMDNjL2xpXHUwMDNlXG5cdTAwM2MvdWxcdTAwM2Vcblx1MDAzY2gyXHUwMDNlWm9vbSBNZWV0aW5nIEluc3RydWN0aW9uc1x1MDAyNm5ic3A7XHUwMDNjL2gyXHUwMDNlXG5cdTAwM2NvbFx1MDAzZVxuICAgIFx1MDAzY2xpXHUwMDNlTWVldCB3aXRoIHlvdXIgZ3JvdXAgKHNlZSBBY3Rpdml0eSBJbnN0cnVjdGlvbnMgYmVsb3cpLlxuICAgICAgICBcdTAwM2Niclx1MDAzZVxuICAgICAgICBcdTAwM2N1bFx1MDAzZVxuICAgICAgICAgICAgXHUwMDNjbGlcdTAwM2VVc2VcdTAwMjZuYnNwO1x1MDAzY2EgaHJlZj1cImh0dHA6Ly9ieXUtaWRhaG8uc2NyZWVuc3RlcHNsaXZlLmNvbS9zLzE2OTk4L20vNzE2OTlcIiB0YXJnZXQ9XCJfYmxhbmtcIlx1MDAzZVpvb20gSGVscCBcdTAwM2MvYVx1MDAzZUd1aWRlcyB0b1x1MDAyNm5ic3A7c2V0XHUwMDI2bmJzcDt1cCB5b3VyIFpvb20gcHJvZmlsZS5cdTAwMjZuYnNwO1x1MDAzYy9saVx1MDAzZVxuICAgICAgICAgICAgXHUwMDNjbGlcdTAwM2VCZSBzdXJlIHRvIHJlY29yZCB5b3VyIGdyb3VwIG1lZXRpbmcgaW4gdGhlIGNsb3VkLlxuICAgICAgICAgICAgICAgIFx1MDAzY3VsXHUwMDNlXG4gICAgICAgICAgICAgICAgICAgIFx1MDAzY2xpXHUwMDNlRm9yIG90aGVyIFpvb20gcXVlc3Rpb25zLi4uICh0cnVuY2F0ZWQpIn0.f__4cOJ_DgVqjxLDHnHXiRiLTJDR6M5EZYt5k1mxqrg",
+      "lti_context_id": "bb76a966-ec63-402c-ad59-d10bb0e4cacc",
+      "course_id": 179890,
+      "name": "W04 Zoom Discussion: Group Submission - LEAD STUDENT ONLY",
+      "submission_types": [
+        "online_text_entry",
+        "online_url"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": false,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": true,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425605",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425605/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425603,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h2>Overview</h2>\n<ul>\n<li>\n<strong>Task:</strong> Create a <strong>table</strong> and a <strong>graph</strong> that presents <strong>racial and/or ethnic data</strong> for your selected <strong>variable </strong>from the data you are collecting.</li>\n<li>\n<strong>Purpose: </strong>Display data that communicates <strong>how racial groups vary</strong> for a selected outcome. These displays will be used in your final paper so take the time to <strong>do things well</strong> now.</li>\n</ul>\n<h2>Instructions</h2>\n<ol>\n<li>Create at least<strong> </strong>one <strong>table</strong> and one <strong>graph</strong> displaying data for <strong>three racial and/or ethnic groups</strong>. The data will come from the <strong>topic</strong> you selected in <strong>Week 01</strong>.\n<ul>\n<li>\n<strong>Tables</strong> should include the following:\n<ul>\n<li>Have a clear <strong>title</strong>.</li>\n<li><strong>Bold title, column headings, and row headings.</strong></li>\n<li>Be <strong>neat</strong> and <strong>easy to read</strong>.</li>\n<li>Have a <strong>citation</strong> below each table.</li>\n</ul>\n</li>\n<li>\n<strong>Graphs</strong> should include the following:\n<ul>\n<li>Have a clear <strong>title</strong>.</li>\n<li>Use <strong>appropriate</strong> graphs (for example, only use pie charts if percentages add up to 100%).\n<ul>\n<li>If using a graph with an X- and <em>Y</em>-axis, make sure they are <strong>clearly and correctly</strong> labeled.</li>\n</ul>\n</li>\n<li>A <strong>key or legend</strong> is presented (if necessary).</li>\n<li>The <strong>citation</strong> below the graph(s).</li>\n</ul>\n</li>\n<li>If you need help, refer to the videos below:\n<ul>\n<li>\n<a href=\"https://www.youtube.com/watch?v=B0gGQHePOws\">How to Make a Pie Chart in Excel</a> (04:46 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTAgH3LBBsMtY7JCK0GVdj7P9CpawUyTF9y8NIc4pLD2QVNhlRxwHsnCS3eWqBisgb9rEVrsw0XWn07/pub\" target=\"_blank\">\"Pie Chart in Excel\" Transcript</a>)</li>\n<li>\n<a href=\"https://www.youtube.com/watch?v=xlWQRtUpuXo\">How To... Draw a Simple Bar Chart in Excel 2010</a> (06:12 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQ3WCDIrj6WStmpM3Id02eq-Q4DJR1I5P9-ZZllPPWluGQIsK3Fk43XXZC0n5rrD4Ue0VIEhJUho8tK/pub\" target=\"_blank\">\"How To... Draw a Simple Bar Chart in Excel 2010\" Transcript</a>)</li>\n<li>\n<a href=\"https://www.youtube.com/watch?v=Xn7Sd5Uu42A&amp;t=4s\">How to make a line graph in Excel (Scientific data)</a> (06:41 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vSqJ0AJVFgjsmj76COx55U50RW-cTc7-SiE1P70Ql2-tBOioWgJPD4NfeCOeyRwN1ivckcGqm4AR9US/pub\" target=\"_blank\">\"How to make a line graph in Excel (Scientific data)\" Transcript</a>)</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<strong>Explain your data</strong>. Do not assume that your audience can interpret your graph and table.\n<ul>\n<li>You should write so that <strong>someone unfamiliar with your data</strong> and the subject <strong>can understand</strong> your paper.</li>\n<li>Explain the most important <strong>numbers and trends</strong> from your graph and table.</li>\n<li>Later, you will explain why differences exist.</li>\n<li>This portion of the paper should be between <strong>1/2 to 1 1/2</strong> pages in length.</li>\n</ul>\n</li>\n<li>\n<strong>Submit</strong> your tables and graphs.</li>\n</ol>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": null,
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 20,
+      "grading_type": "points",
+      "assignment_group_id": 1165187,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:08Z",
+      "updated_at": "2022-01-28T18:11:08Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 8,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjIzMmQwNTEyLTU2MWItNGRjNS05MTRjLTEyMDc4MDFiMmQ5NCIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDJcdTAwM2VPdmVydmlld1x1MDAzYy9oMlx1MDAzZVxuXHUwMDNjdWxcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmdcdTAwM2VUYXNrOlx1MDAzYy9zdHJvbmdcdTAwM2UgQ3JlYXRlIGEgXHUwMDNjc3Ryb25nXHUwMDNldGFibGVcdTAwM2Mvc3Ryb25nXHUwMDNlIGFuZCBhIFx1MDAzY3N0cm9uZ1x1MDAzZWdyYXBoXHUwMDNjL3N0cm9uZ1x1MDAzZSB0aGF0IHByZXNlbnRzIFx1MDAzY3N0cm9uZ1x1MDAzZXJhY2lhbCBhbmQvb3IgZXRobmljIGRhdGFcdTAwM2Mvc3Ryb25nXHUwMDNlIGZvciB5b3VyIHNlbGVjdGVkIFx1MDAzY3N0cm9uZ1x1MDAzZXZhcmlhYmxlIFx1MDAzYy9zdHJvbmdcdTAwM2Vmcm9tIHRoZSBkYXRhIHlvdSBhcmUgY29sbGVjdGluZy5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmdcdTAwM2VQdXJwb3NlOiBcdTAwM2Mvc3Ryb25nXHUwMDNlRGlzcGxheSBkYXRhIHRoYXQgY29tbXVuaWNhdGVzIFx1MDAzY3N0cm9uZ1x1MDAzZWhvdyByYWNpYWwgZ3JvdXBzIHZhcnlcdTAwM2Mvc3Ryb25nXHUwMDNlIGZvciBhIHNlbGVjdGVkIG91dGNvbWUuIFRoZXNlIGRpc3BsYXlzIHdpbGwgYmUgdXNlZCBpbiB5b3VyIGZpbmFsIHBhcGVyIHNvIHRha2UgdGhlIHRpbWUgdG8gXHUwMDNjc3Ryb25nXHUwMDNlZG8gdGhpbmdzIHdlbGxcdTAwM2Mvc3Ryb25nXHUwMDNlIG5vdy5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzYy91bFx1MDAzZVxuXHUwMDNjaDJcdTAwM2VJbnN0cnVjdGlvbnNcdTAwM2MvaDJcdTAwM2Vcblx1MDAzY29sXHUwMDNlXG5cdTAwM2NsaVx1MDAzZUNyZWF0ZSBhdCBsZWFzdFx1MDAzY3N0cm9uZ1x1MDAzZSBcdTAwM2Mvc3Ryb25nXHUwMDNlb25lIFx1MDAzY3N0cm9uZ1x1MDAzZXRhYmxlXHUwMDNjL3N0cm9uZ1x1MDAzZSBhbmQgb25lIFx1MDAzY3N0cm9uZ1x1MDAzZWdyYXBoXHUwMDNjL3N0cm9uZ1x1MDAzZSBkaXNwbGF5aW5nIGRhdGEgZm9yIFx1MDAzY3N0cm9uZ1x1MDAzZXRocmVlIHJhY2lhbCBhbmQvb3IgZXRobmljIGdyb3Vwc1x1MDAzYy9zdHJvbmdcdTAwM2UuIFRoZSBkYXRhIHdpbGwgY29tZSBmcm9tIHRoZSBcdTAwM2NzdHJvbmdcdTAwM2V0b3BpY1x1MDAzYy9zdHJvbmdcdTAwM2UgeW91IHNlbGVjdGVkIGluIFx1MDAzY3N0cm9uZ1x1MDAzZVdlZWsgMDFcdTAwM2Mvc3Ryb25nXHUwMDNlLlxuXHUwMDNjdWxcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXG5cdTAwM2NzdHJvbmdcdTAwM2VUYWJsZXNcdTAwM2Mvc3Ryb25nXHUwMDNlIHNob3VsZCBpbmNsdWRlIHRoZSBmb2xsb3dpbmc6XG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VIYXZlIGEgY2xlYXIgXHUwMDNjc3Ryb25nXHUwMDNldGl0bGVcdTAwM2Mvc3Ryb25nXHUwMDNlLlx1MDAzYy9saVx1MDAzZVxuXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VCb2xkIHRpdGxlLCBjb2x1bW4gaGVhZGluZ3MsIGFuZCByb3cgaGVhZGluZ3MuXHUwMDNjL3N0ci4uLiAodHJ1bmNhdGVkKSJ9.8Jhkxc2CxPwIH0sNX-2l0D_SMZ4u2OClJJGbd0cR3e8",
+      "lti_context_id": "232d0512-561b-4dc5-914c-1207801b2d94",
+      "course_id": 179890,
+      "name": "W04 Variable Project: Table & Graph",
+      "submission_types": [
+        "online_url",
+        "online_upload"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": false,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": true,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425603",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "use_rubric_for_grading": false,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_8186",
+          "points": 7,
+          "description": "Table",
+          "long_description": "* Contains a clear title <br/>\n*Columns clearly labeled <br/>\n* Rows clearly labeled <br/>\n* Information is easy to read<br/>\n* Source included at bottom of table",
+          "ignore_for_scoring": null,
+          "criterion_use_range": true,
+          "ratings": [
+            {
+              "id": "blank",
+              "points": 7,
+              "description": "Expert",
+              "long_description": ""
+            },
+            {
+              "id": "_0",
+              "points": 5,
+              "description": "Good",
+              "long_description": ""
+            },
+            {
+              "id": "blank_2",
+              "points": 3,
+              "description": "Beginning",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_3754",
+          "points": 7,
+          "description": "Graph",
+          "long_description": "* Contains clear title<br/>\n* Graph is appropriate and accurately portrays data<br/>\n* x-axis clearly labeled <br/>\n* y-axis clearly labeled<br/>\n* A key is included <br/>\n* source provided below graph",
+          "ignore_for_scoring": null,
+          "criterion_use_range": true,
+          "ratings": [
+            {
+              "id": "_3255",
+              "points": 7,
+              "description": "Full Marks",
+              "long_description": ""
+            },
+            {
+              "id": "_8594",
+              "points": 5,
+              "description": "Good",
+              "long_description": ""
+            },
+            {
+              "id": "_873",
+              "points": 3,
+              "description": "Beginning",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_9898",
+          "points": 6,
+          "description": "Written Description",
+          "long_description": "* Most important numbers and trends are highlighted<br/>\n* Written description is easy to read",
+          "ignore_for_scoring": null,
+          "criterion_use_range": true,
+          "ratings": [
+            {
+              "id": "_9720",
+              "points": 6,
+              "description": "Expert",
+              "long_description": ""
+            },
+            {
+              "id": "_7270",
+              "points": 5,
+              "description": "Good",
+              "long_description": ""
+            },
+            {
+              "id": "_8458",
+              "points": 2,
+              "description": "Progressing",
+              "long_description": ""
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486196,
+        "title": "Variable Paper_Tables/Graphs",
+        "points_possible": 20,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425603/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425597,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\">\n<h2>Overview&nbsp;</h2>\n<ul>\n<li><strong>Task:</strong>&nbsp;Complete the \"Race Card Activity\" worksheet in preparation for discussing it at your Zoom meeting.</li>\n<li><strong>Purpose:</strong> Sharing your perspective and learning from others will allow you to deepen your empathy for various racial groups. Let your group members help you&nbsp;refine your answers before submitting them.</li>\n</ul>\n<p><strong>Note:</strong> Do not submit your worksheet until after you have met with your group in Zoom and made any revisions the Zoom conversation warrants.</p>\n<h2>Instructions&nbsp;</h2>\n<ol>\n<li><span style=\"font-family: inherit; font-size: 1rem;\">Download the <a class=\"instructure_file_link instructure_scribd_file\" title=\"soc323_document_W03ZoomPrepRaceCard.docx\" href=\"https://byui.instructure.com/courses/179890/files/78772000?verifier=00xSuF7DuCae1EkstDZbEMZ8ql9eOngRGr71gQBg&amp;wrap=1\" target=\"_blank\" data-api-endpoint=\"https://byui.instructure.com/api/v1/courses/179890/files/78772000\" data-api-returntype=\"File\">W03 Zoom Prep: Race Card</a> worksheet.</span></li>\n<li>Put your thoughts, experiences, or observations about race into six-word sentences such as the following:\n<ul>\n<li>\"Yes, that is his daughter too,\" (Dania Abreu-Torres, San Antonio, TX).</li>\n<li>\"People never guess my race correctly.\" (Lara Jean Deshayes, Oakland, CA).</li>\n</ul>\n</li>\n<li>Visit <a class=\"instructure_file_link inline_disabled\" href=\"https://theracecardproject.com\" target=\"_blank\">The Race Card Project</a>.</li>\n<li>After looking over the website, answer the following questions:\n<ul>\n<li><strong>Which statements stand out to you? Why? (2–4 sentences).</strong></li>\n<li><strong>How do the sentences submitted by members of dominant groups differ from those submitted by people from minority groups? (2–4 sentences).&nbsp;</strong></li>\n</ul>\n</li>\n<li>Bring your ideas to your Zoom meeting and compare your responses with others.\n<ul>\n<li><strong>What patterns and/or differences did you notice?&nbsp;</strong></li>\n<li><strong>What might account for these patterns and/or differences?</strong></li>\n</ul>\n</li>\n<li>Refine any answers according to your Zoom discussion.</li>\n<li>Submit your revised worksheet.</li>\n</ol>\n<pre>Source: The Salience of Race: A Reflective Essay on Racial Awareness for Race Related Classes Wendy Leo Moore Texas A&amp;M University, College Station, USA e-mail: wlmoore@tamu.edu Description <span style=\"color: #e03e2d;\">(Put on Copyright. page) </span></pre>\n</div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-01-28T19:10:00Z",
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 10,
+      "grading_type": "points",
+      "assignment_group_id": 1165185,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:11:07Z",
+      "updated_at": "2023-01-20T16:10:44Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 1,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6ImZkZmNmMzUwLWUzOWEtNDNhYy1hMTM3LWE2MjIyN2IzOWM5OCIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVxuXHUwMDNjaDJcdTAwM2VPdmVydmlld1x1MDAyNm5ic3A7XHUwMDNjL2gyXHUwMDNlXG5cdTAwM2N1bFx1MDAzZVxuXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VUYXNrOlx1MDAzYy9zdHJvbmdcdTAwM2VcdTAwMjZuYnNwO0NvbXBsZXRlIHRoZSBcIlJhY2UgQ2FyZCBBY3Rpdml0eVwiIHdvcmtzaGVldCBpbiBwcmVwYXJhdGlvbiBmb3IgZGlzY3Vzc2luZyBpdCBhdCB5b3VyIFpvb20gbWVldGluZy5cdTAwM2MvbGlcdTAwM2Vcblx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlUHVycG9zZTpcdTAwM2Mvc3Ryb25nXHUwMDNlIFNoYXJpbmcgeW91ciBwZXJzcGVjdGl2ZSBhbmQgbGVhcm5pbmcgZnJvbSBvdGhlcnMgd2lsbCBhbGxvdyB5b3UgdG8gZGVlcGVuIHlvdXIgZW1wYXRoeSBmb3IgdmFyaW91cyByYWNpYWwgZ3JvdXBzLiBMZXQgeW91ciBncm91cCBtZW1iZXJzIGhlbHAgeW91XHUwMDI2bmJzcDtyZWZpbmUgeW91ciBhbnN3ZXJzIGJlZm9yZSBzdWJtaXR0aW5nIHRoZW0uXHUwMDNjL2xpXHUwMDNlXG5cdTAwM2MvdWxcdTAwM2Vcblx1MDAzY3BcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VOb3RlOlx1MDAzYy9zdHJvbmdcdTAwM2UgRG8gbm90IHN1Ym1pdCB5b3VyIHdvcmtzaGVldCB1bnRpbCBhZnRlciB5b3UgaGF2ZSBtZXQgd2l0aCB5b3VyIGdyb3VwIGluIFpvb20gYW5kIG1hZGUgYW55IHJldmlzaW9ucyB0aGUgWm9vbSBjb252ZXJzYXRpb24gd2FycmFudHMuXHUwMDNjL3BcdTAwM2Vcblx1MDAzY2gyXHUwMDNlSW5zdHJ1Y3Rpb25zXHUwMDI2bmJzcDtcdTAwM2MvaDJcdTAwM2Vcblx1MDAzY29sXHUwMDNlXG5cdTAwM2NsaVx1MDAzZVx1MDAzY3NwYW4gc3R5bGU9XCJmb250LWZhbWlseTogaW5oZXJpdDsgZm9udC1zaXplOiAxcmVtO1wiXHUwMDNlRG93bmxvYWQgdGhlIFx1MDAzY2EgY2xhc3M9XCJpbnN0cnVjdHVyZV9maWxlX2xpbmsgaW5zdHJ1Y3R1cmVfc2NyaWJkX2ZpbGVcIiB0aXRsZT1cInNvYzMyM19kb2N1bWVudF9XMDNab29tUHJlcFJhY2VDYXJkLmRvY3hcIiBocmVmPVwiL2NvdXJzZXMvMTc5ODkwL2ZpbGVzLzc4NzcyMDAwP3dyYXA9MVwiIHRhcmdldD1cIl9ibGFua1wiIGRhdGEtYXBpLWVuZHBvaW50PVwiaHR0cHM6Ly9ieXVpLmluc3RydWN0dXJlLmNvbS9hcGkvdjEvY291cnNlcy8xNzk4OTAvZmlsZXMvNzg3NzIwMDBcIiBkYXRhLWFwaS1yZXR1cm50eXBlPVwiRmlsZVwiXHUwMDNlVzAzIFpvb20gUHIuLi4gKHRydW5jYXRlZCkifQ.CYxjYBHpLVB9PEp62AABvWuA34xaw76lPrrof2kw7fw",
+      "lti_context_id": "fdfcf350-e39a-43ac-a137-a62227b39c98",
+      "course_id": 179890,
+      "name": "W03 Zoom Prep: TEST ASSIGNMENT",
+      "submission_types": [
+        "online_upload"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425597",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "use_rubric_for_grading": false,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_7296",
+          "points": 4,
+          "description": "Description of criterion",
+          "long_description": "Individual Phase Answers: Student answers each question in the individual phase portion of the assignment.",
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "blank",
+              "points": 4,
+              "description": "Full Marks",
+              "long_description": "Student thoroughly answers each question in the individual phase of the assignment. Student thought, effort and reflection are apparent in their responses."
+            },
+            {
+              "id": "_1972",
+              "points": 3,
+              "description": "Level 3",
+              "long_description": "Student answers most of the questions in the individual phase of the assignment. It is apparent that the student put effort into the assignment but did not answer every question (or every part of every question)."
+            },
+            {
+              "id": "_8938",
+              "points": 2,
+              "description": "Level 2",
+              "long_description": "Student answers some of the question in the individual phase. Student answers are lacking detail and this portion is incomplete."
+            },
+            {
+              "id": "_1791",
+              "points": 1,
+              "description": "Level 1",
+              "long_description": "Student does not answer most of the questions. Little effort is shown in completing the assignment."
+            },
+            {
+              "id": "blank_2",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "The individual phase portion of the assignment is not completed."
+            }
+          ]
+        },
+        {
+          "id": "_7411",
+          "points": 4,
+          "description": "Description of criterion",
+          "long_description": "Group Phase Answers: Student answers each question in the group phase portion of the assignment.",
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_2571",
+              "points": 4,
+              "description": "Full Marks",
+              "long_description": "Student thoroughly answers each question in the group phase of the assignment. Student thought, effort and reflection are apparent in their responses."
+            },
+            {
+              "id": "_4471",
+              "points": 3,
+              "description": "Level 3",
+              "long_description": "Student answers most of the questions in the group phase of the assignment. It is apparent that the student put effort into the assignment but did not answer every question (or every part of every question)."
+            },
+            {
+              "id": "_4678",
+              "points": 2,
+              "description": "Level 2",
+              "long_description": "Student answers some of the question in the group phase. Student answers are lacking detail and this portion is incomplete."
+            },
+            {
+              "id": "_5215",
+              "points": 1,
+              "description": "Level 1",
+              "long_description": "Student does not answer most of the questions. Little effort is shown in completing the assignment."
+            },
+            {
+              "id": "_9019",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "The group phase portion of the assignment is not completed."
+            }
+          ]
+        },
+        {
+          "id": "_8867",
+          "points": 2,
+          "description": "Description of Criterion",
+          "long_description": "Student follows instructions and meets the length criteria (if applicable) of each answer. Answers are in complete sentences and assignment has been proofread.",
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_3133",
+              "points": 2,
+              "description": "Full Marks",
+              "long_description": "Student follows instructions and meets the length criteria (if applicable) of each answer. Answers are in complete sentences and writing is error-free."
+            },
+            {
+              "id": "_2430",
+              "points": 1,
+              "description": "Level 1",
+              "long_description": "Student does not meet the length requirement for every question and/or student has not written in complete sentences. There are also some grammatical, spelling, and/or punctuation errors."
+            },
+            {
+              "id": "_3726",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Student has not followed the directions for this assignment."
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486190,
+        "title": "Zoom Prep Rubric",
+        "points_possible": 10,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425597/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    },
+    {
+      "id": 8425569,
+      "description": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\"><h2>Overview</h2><ul><li><strong>Task:</strong> Discuss how historical events during the 1860s to the 1920s impacted racial inequalities today.</li><li><strong>Purpose:</strong> Deepen understanding of historical events during the 1860s to the 1920s and how these events impact racial inequalities today.</li></ul><p>Or:</p><ul><li><strong>Task:</strong> Reflect on ways to reduce your implicit biases.</li><li><strong>Purpose:</strong> Deepen understanding of how implicit biases impact your interactions.</li></ul><h2>Instructions</h2><h3>Option 1: 1860s–1920s</h3><ol><li><span data-contrast=\"auto\">Watch the following videos:</span><ul><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672025&amp;entry_id=1_ojk7wmwl\" target=\"_blank\">Reconstruction: The Civil War in Four Minutes</a><br><iframe id=\"kaltura_player_1639672025\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672025&amp;entry_id=1_ojk7wmwl\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:45 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQaq8sgmCSpmIQhbJSwwQV6VU6CWho3XNrCF1H3tMuzmyU-5LVvF229mNx65OXn3QuqbUTtBZAjDRom/pub\" target=\"_blank\">\"Reconstruction: The Civil War in Four Minutes\" Transcript</a>)</li><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=ZX8ihCOJaZM?rel=0\" target=\"_blank\">Who Was Jim Crow? Was He a Real Person?</a><br><iframe src=\"https://www.youtube.com/embed/ZX8ihCOJaZM?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(04:26 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTPQcQeunIbP3Egz-FBqf6tkC-duJGY3H2RfiOagJanI8ovQXvSPsZ2ycQRUoADaAUYPju9-duCQRNk/pub\" target=\"_blank\">\"Who Was Jim Crow? Was He a Real Person?\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=Q8SVqqCgH2Q&amp;list=PLkdxPqJNeyDA9J4KMAq4TPeg6BlJOSfdM&amp;index=11\" target=\"_blank\">Why The Dawes Act Matters - @MrBettsClass</a><br><iframe src=\"https://www.youtube.com/embed/Q8SVqqCgH2Q?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:42 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vSqhI2Q3hesp33XT9jIC3zOOHk0zKeYS6e-9OLhrYVCK6fPh4gcZNESsYyXxmKR1YAK0lvTuF5_sdki/pub\" target=\"_blank\">\"Why The Dawes Act Matters - @MrBettsClass\" Transcript</a>)</li><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=bmHct5IHxrA&amp;list=PLkdxPqJNeyDA9J4KMAq4TPeg6BlJOSfdM&amp;index=8\" target=\"_blank\">The Historical Construction of Whiteness</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/bmHct5IHxrA?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(07:41 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRZS19yuINuQcEwf0o4qcz-3VYbFYeOHQE-rWm9-tHpi4X2k0d1sZy-YA36N8helTF59P7NcS4v2Bih/pub\" target=\"_blank\">\"The Historical Construction of Whiteness\" Transcript</a>)</li></ul></li><li>Upon learning that you are taking a Racial and Ethnic Relations class, a relative says “I understand that racism happened a long time ago, but racism is in the past and has no impact on today’s society.” Which of the following historical events would you use to respond to your relative’s comment?<ul><li>Irish and Italian immigrants' process of becoming “White.”</li><li>The period of reconstruction and the introduction of Jim Crow Laws.</li><li>The treatment of Native Americans (including the Dawes Act and boarding schools).</li></ul></li></ol><h3>Option 2: Implicit Bias</h3><ol><li>Take the <a class=\"inline_disabled\" href=\"https://implicit.harvard.edu/implicit/takeatest.html\" target=\"_blank\">IAT Test</a>.<ul><li>Under \"Project Implicit Social Attitudes,\" scroll down to the country logo. Make sure your country is selected and select <strong>GO</strong>.</li><li>You should now be on a page called \"Preliminary Information.\" Skim through this page.</li><li>Select <strong>I wish to proceed</strong> (located near the bottom of the page).</li><li>Select <strong>one</strong> of the following tests to complete and take the test:<ul><li>Race IAT</li><li>Asian IAT</li><li>Native IAT</li><li>Skin-tone IAT</li><li>Arab-Muslim IAT</li></ul></li></ul></li><li>Reflect on Your Test Results.<ul><li>What did your test results show: do you have an implicit racial bias?</li><li>Note: You do not need to reveal specific results here. You can speak broadly for this question.</li></ul></li><li>Watch <a class=\"instructure_file_link inline_disabled\" href=\"https://www.ted.com/talks/verna_myers_how_to_overcome_our_biases_walk_boldly_toward_them?language=en\" target=\"_blank\">Verna Myers - How to Overcome Our Biases? Walk Boldly Toward Them</a>.<div style=\"max-width: 854px;\"><div style=\"position: relative; height: 0; padding-bottom: 56.25%;\"><iframe style=\"position: absolute; left: 0; top: 0; width: 100%; height: 100%;\" src=\"https://embed.ted.com/talks/lang/en/verna_myers_how_to_overcome_our_biases_walk_boldly_toward_them\" width=\"854\" height=\"480\" allowfullscreen=\"allowfullscreen\"></iframe></div></div><ul><li>(17:40 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRJxmG-OvSaQ_drtcRsAUpRYxAn4_APCRxq80jYbdwKCEfsb-krLoyH5jHQCryIuZgQbDL1Vt1V6uQU/pub\" target=\"_blank\">\"How to overcome our biases? Walk boldly toward them\" Transcript</a>)&nbsp;<ul><li>How can we reduce our implicit biases?<ul><li>reate a three to five bullet point plan for yourself that you can share.</li></ul></li></ul></li></ul></li></ol><h3>For Both Options do the Following:</h3><ul><li>Make your initial post by the midweek due date.</li><li>Respond to <em>at least</em> two of your classmates by the end of week due date.</li><li>Support your comments with data from reliable and academic sources and/or quotations from the readings.</li><li>Be active on the discussion board and check back often to see what others can teach you.<ul><li>If others respond to your post, respond to them and strike up a teaching conversation.</li></ul></li><li>To receive full points, be active and work with others to learn deeply.</li></ul><h2>Note</h2><p>A substantive post includes one or more of the following:</p><ul><li>Thoughtful, insightful ideas or arguments on the topic.<ul><li>These thoughts and insights are backed up with supportable data.</li></ul></li><li>Strong defense of your position.</li><li>Encouragement for others to participate.</li><li>Disputations of positions with which you do not agree.</li><li>References to the course material.</li><li>Source citations whenever possible.</li><li>References to this week's <a class=\"external\" href=\"http://www.byui.edu/devotionals/\" target=\"_blank\">BYU-Idaho devotional</a>.</li></ul></div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "due_at": "2022-01-28T19:10:00Z",
+      "unlock_at": null,
+      "lock_at": null,
+      "points_possible": 15,
+      "grading_type": "points",
+      "assignment_group_id": 1165185,
+      "grading_standard_id": null,
+      "created_at": "2022-01-28T18:10:57Z",
+      "updated_at": "2023-01-20T16:10:40Z",
+      "peer_reviews": false,
+      "automatic_peer_reviews": false,
+      "position": 2,
+      "grade_group_students_individually": false,
+      "anonymous_peer_reviews": false,
+      "group_category_id": null,
+      "post_to_sis": false,
+      "moderated_grading": false,
+      "omit_from_final_grade": false,
+      "intra_group_peer_reviews": false,
+      "anonymous_instructor_annotations": false,
+      "anonymous_grading": false,
+      "graders_anonymous_to_graders": false,
+      "grader_count": 0,
+      "grader_comments_visible_to_graders": true,
+      "final_grader_id": null,
+      "grader_names_visible_to_final_grader": true,
+      "allowed_attempts": -1,
+      "annotatable_attachment_id": null,
+      "secure_params": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsdGlfYXNzaWdubWVudF9pZCI6IjdiYmVhZGNmLTg4ODQtNDFkMS04MzBmLTYxMjZkOGYxMzk4ZiIsImx0aV9hc3NpZ25tZW50X2Rlc2NyaXB0aW9uIjoiXHUwMDNjZGl2IGNsYXNzPVwiYnl1aSBzb2MzMjNcIlx1MDAzZVx1MDAzY2gyXHUwMDNlT3ZlcnZpZXdcdTAwM2MvaDJcdTAwM2VcdTAwM2N1bFx1MDAzZVx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlVGFzazpcdTAwM2Mvc3Ryb25nXHUwMDNlIERpc2N1c3MgaG93IGhpc3RvcmljYWwgZXZlbnRzIGR1cmluZyB0aGUgMTg2MHMgdG8gdGhlIDE5MjBzIGltcGFjdGVkIHJhY2lhbCBpbmVxdWFsaXRpZXMgdG9kYXkuXHUwMDNjL2xpXHUwMDNlXHUwMDNjbGlcdTAwM2VcdTAwM2NzdHJvbmdcdTAwM2VQdXJwb3NlOlx1MDAzYy9zdHJvbmdcdTAwM2UgRGVlcGVuIHVuZGVyc3RhbmRpbmcgb2YgaGlzdG9yaWNhbCBldmVudHMgZHVyaW5nIHRoZSAxODYwcyB0byB0aGUgMTkyMHMgYW5kIGhvdyB0aGVzZSBldmVudHMgaW1wYWN0IHJhY2lhbCBpbmVxdWFsaXRpZXMgdG9kYXkuXHUwMDNjL2xpXHUwMDNlXHUwMDNjL3VsXHUwMDNlXHUwMDNjcFx1MDAzZU9yOlx1MDAzYy9wXHUwMDNlXHUwMDNjdWxcdTAwM2VcdTAwM2NsaVx1MDAzZVx1MDAzY3N0cm9uZ1x1MDAzZVRhc2s6XHUwMDNjL3N0cm9uZ1x1MDAzZSBSZWZsZWN0IG9uIHdheXMgdG8gcmVkdWNlIHlvdXIgaW1wbGljaXQgYmlhc2VzLlx1MDAzYy9saVx1MDAzZVx1MDAzY2xpXHUwMDNlXHUwMDNjc3Ryb25nXHUwMDNlUHVycG9zZTpcdTAwM2Mvc3Ryb25nXHUwMDNlIERlZXBlbiB1bmRlcnN0YW5kaW5nIG9mIGhvdyBpbXBsaWNpdCBiaWFzZXMgaW1wYWN0IHlvdXIgaW50ZXJhY3Rpb25zLlx1MDAzYy9saVx1MDAzZVx1MDAzYy91bFx1MDAzZVx1MDAzY2gyXHUwMDNlSW5zdHJ1Y3Rpb25zXHUwMDNjL2gyXHUwMDNlXHUwMDNjaDNcdTAwM2VPcHRpb24gMTogMTg2MHPigJMxOTIwc1x1MDAzYy9oM1x1MDAzZVx1MDAzY29sXHUwMDNlXHUwMDNjbGlcdTAwM2VcdTAwM2NzcGFuIGRhdGEtY29udHJhc3Q9XCJhdXRvXCJcdTAwM2VXYXRjaCB0aGUgZm9sbG93aW5nIHZpZGVvczpcdTAwM2Mvc3Bhblx1MDAzZVx1MDAzY3VsXHUwMDNlXHUwMDNjbGlcdTAwM2VcdTAwM2NhIGNsYXNzPVwiaW5saW5lX2Rpc2FibGVkXCIgaHJlZj1cImh0dHBzOi8vY2RuYXBpc2VjLmthbHR1cmEuY29tL3AvMTE1NzYxMi9zcC8xMTU3NjEyMDAvZW1iZWRJZnJhbWVKcy91aWNvbmZfaWQvNDI0MzgyNjIvcGFydG5lcl9pZC8xMTU3NjEyP2lmcmFtZWVtYmVkPXRydWVcdTAwMjZhbXA7cGxheWVySWQ9a2FsdHVyYV9wbGF5ZXJfMTYzOTY3MjAyNVx1MDAyNmFtcDtlbnRyeV9pZD0xX29qazd3bXdsXCIgdGFyZ2V0PVwiX2JsYW5rXCJcdTAwM2VSZWNvbnN0cnVjdGlvbjogVGhlIENpdmlsIFdhciBpbiBGb3VyIE1pbnV0ZXNcdTAwM2MvYVx1MDAzZVx1MDAzY2JyXHUwMDNlXHUwMDNjaWZyYW1lIGlkPVwia2FsdHVyYV9wbGF5ZXJfMS4uLiAodHJ1bmNhdGVkKSJ9.rTvQixNnPbidbBWERbkcIhWa4MhvVPUnnkuYpQ7-GdY",
+      "lti_context_id": "7bbeadcf-8884-41d1-830f-6126d8f1398f",
+      "course_id": 179890,
+      "name": "W03 SOC 323 Discussion: TEST DISCUSSION",
+      "submission_types": [
+        "discussion_topic"
+      ],
+      "has_submitted_submissions": false,
+      "due_date_required": false,
+      "max_name_length": 255,
+      "in_closed_grading_period": false,
+      "graded_submissions_exist": true,
+      "is_quiz_assignment": false,
+      "can_duplicate": true,
+      "original_course_id": null,
+      "original_assignment_id": null,
+      "original_lti_resource_link_id": null,
+      "original_assignment_name": null,
+      "original_quiz_id": null,
+      "workflow_state": "published",
+      "important_dates": false,
+      "muted": false,
+      "html_url": "https://byui.instructure.com/courses/179890/assignments/8425569",
+      "has_overrides": false,
+      "sis_assignment_id": null,
+      "integration_id": null,
+      "integration_data": {},
+      "use_rubric_for_grading": true,
+      "free_form_criterion_comments": false,
+      "rubric": [
+        {
+          "id": "_1237",
+          "points": 5,
+          "description": "Initial post meets the standards of a substantial post",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_9836",
+              "points": 5,
+              "description": "Excellent",
+              "long_description": "Students present thoughtful, insightful ideas or arguments on the topic and encourage others to participate. Students defend their position and dispute positions they do not agree with. Students reference course material and this week's BYU-Idaho devotional,  citing sources whenever possible."
+            },
+            {
+              "id": "_8155",
+              "points": 2.5,
+              "description": "Needs Improvement",
+              "long_description": ""
+            },
+            {
+              "id": "_1109",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_4909",
+          "points": 5,
+          "description": "There are at least 2 subsequent posts throughout the week",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_8",
+              "points": 5,
+              "description": "Excellent",
+              "long_description": "Students made at least two subsequent posts throughout the week."
+            },
+            {
+              "id": "_3447",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": "Students made fewer than two subsequent posts throughout the week."
+            }
+          ]
+        },
+        {
+          "id": "_7944",
+          "points": 4,
+          "description": "Subsequent posts meet the standards of a substantial post",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_4905",
+              "points": 4,
+              "description": "Excellent",
+              "long_description": "Students present thoughtful, insightful ideas or arguments on the topic and encourage others to participate. Students defend their position and dispute positions they do not agree with. Students reference course material and this week's BYU-Idaho devotional, citing sources whenever possible."
+            },
+            {
+              "id": "_3625",
+              "points": 2,
+              "description": "Needs Improvement",
+              "long_description": ""
+            },
+            {
+              "id": "_9691",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        },
+        {
+          "id": "_6384",
+          "points": 1,
+          "description": "Extra effort is apparent",
+          "long_description": null,
+          "ignore_for_scoring": null,
+          "criterion_use_range": false,
+          "ratings": [
+            {
+              "id": "_8407",
+              "points": 1,
+              "description": "Meets Standard",
+              "long_description": "There are more than 2 subsequent posts. Posts are not all made at the same time (at the midweek due date). \nThe effort to engage with others is apparent."
+            },
+            {
+              "id": "_1989",
+              "points": 0,
+              "description": "No Marks",
+              "long_description": ""
+            }
+          ]
+        }
+      ],
+      "rubric_settings": {
+        "id": 1486198,
+        "title": "Updated DB Rubric",
+        "points_possible": 15,
+        "free_form_criterion_comments": false,
+        "hide_score_total": false,
+        "hide_points": false
+      },
+      "discussion_topic": {
+        "id": 5349926,
+        "title": "W03 SOC 323 Discussion: TEST DISCUSSION",
+        "last_reply_at": null,
+        "created_at": "2022-01-28T18:10:57Z",
+        "delayed_post_at": null,
+        "posted_at": null,
+        "assignment_id": 8425569,
+        "root_topic_id": null,
+        "position": null,
+        "podcast_has_student_posts": false,
+        "discussion_type": "threaded",
+        "lock_at": null,
+        "allow_rating": false,
+        "only_graders_can_rate": false,
+        "sort_by_rating": false,
+        "is_section_specific": false,
+        "anonymous_state": null,
+        "user_name": null,
+        "discussion_subentry_count": 0,
+        "permissions": {
+          "attach": true,
+          "update": true,
+          "reply": true,
+          "delete": true
+        },
+        "require_initial_post": true,
+        "user_can_see_posts": true,
+        "podcast_url": null,
+        "read_state": "unread",
+        "unread_count": 0,
+        "subscribed": false,
+        "attachments": [],
+        "published": true,
+        "can_unpublish": true,
+        "locked": false,
+        "can_lock": true,
+        "comments_disabled": false,
+        "author": {},
+        "html_url": "https://byui.instructure.com/courses/179890/discussion_topics/5349926",
+        "url": "https://byui.instructure.com/courses/179890/discussion_topics/5349926",
+        "pinned": false,
+        "group_category_id": 209048,
+        "can_group": true,
+        "topic_children": [],
+        "group_topic_children": [],
+        "locked_for_user": false,
+        "message": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\"><div class=\"byui soc323\"><h2>Overview</h2><ul><li><strong>Task:</strong> Discuss how historical events during the 1860s to the 1920s impacted racial inequalities today.</li><li><strong>Purpose:</strong> Deepen understanding of historical events during the 1860s to the 1920s and how these events impact racial inequalities today.</li></ul><p>Or:</p><ul><li><strong>Task:</strong> Reflect on ways to reduce your implicit biases.</li><li><strong>Purpose:</strong> Deepen understanding of how implicit biases impact your interactions.</li></ul><h2>Instructions</h2><h3>Option 1: 1860s–1920s</h3><ol><li><span data-contrast=\"auto\">Watch the following videos:</span><ul><li><a class=\"inline_disabled\" href=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672025&amp;entry_id=1_ojk7wmwl\" target=\"_blank\">Reconstruction: The Civil War in Four Minutes</a><br><iframe id=\"kaltura_player_1639672025\" title=\"embedded content\" src=\"https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/42438262/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player_1639672025&amp;entry_id=1_ojk7wmwl\" width=\"480\" height=\"270\" allowfullscreen=\"allowfullscreen\" webkitallowfullscreen=\"webkitallowfullscreen\" mozallowfullscreen=\"mozallowfullscreen\" allow=\"autoplay *; fullscreen *; encrypted-media *\"></iframe><br>(04:45 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vQaq8sgmCSpmIQhbJSwwQV6VU6CWho3XNrCF1H3tMuzmyU-5LVvF229mNx65OXn3QuqbUTtBZAjDRom/pub\" target=\"_blank\">\"Reconstruction: The Civil War in Four Minutes\" Transcript</a>)</li><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=ZX8ihCOJaZM?rel=0\" target=\"_blank\">Who Was Jim Crow? Was He a Real Person?</a><br><iframe src=\"https://www.youtube.com/embed/ZX8ihCOJaZM?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(04:26 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vTPQcQeunIbP3Egz-FBqf6tkC-duJGY3H2RfiOagJanI8ovQXvSPsZ2ycQRUoADaAUYPju9-duCQRNk/pub\" target=\"_blank\">\"Who Was Jim Crow? Was He a Real Person?\" Transcript</a>)</li><li><a class=\"inline_disabled\" href=\"https://www.youtube.com/watch?v=Q8SVqqCgH2Q&amp;list=PLkdxPqJNeyDA9J4KMAq4TPeg6BlJOSfdM&amp;index=11\" target=\"_blank\">Why The Dawes Act Matters - @MrBettsClass</a><br><iframe src=\"https://www.youtube.com/embed/Q8SVqqCgH2Q?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(02:42 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vSqhI2Q3hesp33XT9jIC3zOOHk0zKeYS6e-9OLhrYVCK6fPh4gcZNESsYyXxmKR1YAK0lvTuF5_sdki/pub\" target=\"_blank\">\"Why The Dawes Act Matters - @MrBettsClass\" Transcript</a>)</li><li><a class=\"instructure_file_link inline_disabled\" href=\"https://www.youtube.com/watch?v=bmHct5IHxrA&amp;list=PLkdxPqJNeyDA9J4KMAq4TPeg6BlJOSfdM&amp;index=8\" target=\"_blank\">The Historical Construction of Whiteness</a><br><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/bmHct5IHxrA?rel=0\" width=\"560\" height=\"315\" allowfullscreen=\"allowfullscreen\"></iframe><br>(07:41 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRZS19yuINuQcEwf0o4qcz-3VYbFYeOHQE-rWm9-tHpi4X2k0d1sZy-YA36N8helTF59P7NcS4v2Bih/pub\" target=\"_blank\">\"The Historical Construction of Whiteness\" Transcript</a>)</li></ul></li><li>Upon learning that you are taking a Racial and Ethnic Relations class, a relative says “I understand that racism happened a long time ago, but racism is in the past and has no impact on today’s society.” Which of the following historical events would you use to respond to your relative’s comment?<ul><li>Irish and Italian immigrants' process of becoming “White.”</li><li>The period of reconstruction and the introduction of Jim Crow Laws.</li><li>The treatment of Native Americans (including the Dawes Act and boarding schools).</li></ul></li></ol><h3>Option 2: Implicit Bias</h3><ol><li>Take the <a class=\"inline_disabled\" href=\"https://implicit.harvard.edu/implicit/takeatest.html\" target=\"_blank\">IAT Test</a>.<ul><li>Under \"Project Implicit Social Attitudes,\" scroll down to the country logo. Make sure your country is selected and select <strong>GO</strong>.</li><li>You should now be on a page called \"Preliminary Information.\" Skim through this page.</li><li>Select <strong>I wish to proceed</strong> (located near the bottom of the page).</li><li>Select <strong>one</strong> of the following tests to complete and take the test:<ul><li>Race IAT</li><li>Asian IAT</li><li>Native IAT</li><li>Skin-tone IAT</li><li>Arab-Muslim IAT</li></ul></li></ul></li><li>Reflect on Your Test Results.<ul><li>What did your test results show: do you have an implicit racial bias?</li><li>Note: You do not need to reveal specific results here. You can speak broadly for this question.</li></ul></li><li>Watch <a class=\"instructure_file_link inline_disabled\" href=\"https://www.ted.com/talks/verna_myers_how_to_overcome_our_biases_walk_boldly_toward_them?language=en\" target=\"_blank\">Verna Myers - How to Overcome Our Biases? Walk Boldly Toward Them</a>.<div style=\"max-width: 854px;\"><div style=\"position: relative; height: 0; padding-bottom: 56.25%;\"><iframe style=\"position: absolute; left: 0; top: 0; width: 100%; height: 100%;\" src=\"https://embed.ted.com/talks/lang/en/verna_myers_how_to_overcome_our_biases_walk_boldly_toward_them\" width=\"854\" height=\"480\" allowfullscreen=\"allowfullscreen\"></iframe></div></div><ul><li>(17:40 mins, <a class=\"inline_disabled\" href=\"https://docs.google.com/document/d/e/2PACX-1vRJxmG-OvSaQ_drtcRsAUpRYxAn4_APCRxq80jYbdwKCEfsb-krLoyH5jHQCryIuZgQbDL1Vt1V6uQU/pub\" target=\"_blank\">\"How to overcome our biases? Walk boldly toward them\" Transcript</a>)&nbsp;<ul><li>How can we reduce our implicit biases?<ul><li>reate a three to five bullet point plan for yourself that you can share.</li></ul></li></ul></li></ul></li></ol><h3>For Both Options do the Following:</h3><ul><li>Make your initial post by the midweek due date.</li><li>Respond to <em>at least</em> two of your classmates by the end of week due date.</li><li>Support your comments with data from reliable and academic sources and/or quotations from the readings.</li><li>Be active on the discussion board and check back often to see what others can teach you.<ul><li>If others respond to your post, respond to them and strike up a teaching conversation.</li></ul></li><li>To receive full points, be active and work with others to learn deeply.</li></ul><h2>Note</h2><p>A substantive post includes one or more of the following:</p><ul><li>Thoughtful, insightful ideas or arguments on the topic.<ul><li>These thoughts and insights are backed up with supportable data.</li></ul></li><li>Strong defense of your position.</li><li>Encouragement for others to participate.</li><li>Disputations of positions with which you do not agree.</li><li>References to the course material.</li><li>Source citations whenever possible.</li><li>References to this week's <a class=\"external\" href=\"http://www.byui.edu/devotionals/\" target=\"_blank\">BYU-Idaho devotional</a>.</li></ul></div><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+        "subscription_hold": "not_in_group_set",
+        "todo_date": null,
+        "is_announcement": false
+      },
+      "published": true,
+      "unpublishable": true,
+      "only_visible_to_overrides": false,
+      "locked_for_user": false,
+      "submissions_download_url": "https://byui.instructure.com/courses/179890/assignments/8425569/submissions?zip=1",
+      "is_master_course_child_content": true,
+      "restricted_by_master_course": false,
+      "post_manually": false,
+      "anonymize_students": false,
+      "require_lockdown_browser": false
+    }
+  ]

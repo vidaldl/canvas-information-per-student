@@ -1,0 +1,154 @@
+// This call gets all of the submissions of a specific assignment in the course.
+// You can also get the rubric rating/criteria in the assignment and how many points the student got 
+// per rubric rating/criteria by adding ?include[]=rubric_assessment at the end of the request URL
+
+// URL: /v1/courses/{course_id}/assignments/{assignment_id}/submissions?include[]=rubric_assessment
+
+// More information: https://canvas.instructure.com/doc/api/submissions.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/assignments/8425587/submissions?include[]=rubric_assessment
+// Example Response:
+[
+    {
+      "id": 394362808,
+      "body": null,
+      "url": null,
+      "grade": "17",
+      "score": 17,
+      "submitted_at": "2023-01-20T16:08:38Z",
+      "assignment_id": 8425587,
+      "user_id": 247195,
+      "submission_type": "online_upload",
+      "workflow_state": "graded",
+      "grade_matches_current_submission": true,
+      "graded_at": "2023-01-25T18:42:04Z",
+      "grader_id": 400521,
+      "attempt": 1,
+      "cached_due_date": null,
+      "excused": false,
+      "late_policy_status": "none",
+      "points_deducted": null,
+      "grading_period_id": null,
+      "extra_attempts": null,
+      "posted_at": "2023-01-20T16:09:46Z",
+      "redo_request": false,
+      "late": false,
+      "missing": false,
+      "seconds_late": 0,
+      "entered_grade": "17",
+      "entered_score": 17,
+      "preview_url": "https://byui.instructure.com/courses/179890/assignments/8425587/submissions/247195?preview=1&version=15",
+      "attachments": [
+        {
+          "id": 101509352,
+          "uuid": "a4FX80zjSyVdgaGhesOGdwTFa4R4SsO3ABZfCsU3",
+          "folder_id": 9360657,
+          "display_name": "BUS 100 Syllabus (2022).pdf",
+          "filename": "BUS+100+Syllabus+%282022%29.pdf",
+          "upload_status": "success",
+          "content-type": "application/pdf",
+          "url": "https://byui.instructure.com/files/101509352/download?download_frd=1&verifier=a4FX80zjSyVdgaGhesOGdwTFa4R4SsO3ABZfCsU3",
+          "size": 111018,
+          "created_at": "2023-01-20T16:08:37Z",
+          "updated_at": "2023-01-20T16:12:05Z",
+          "unlock_at": null,
+          "locked": false,
+          "hidden": false,
+          "lock_at": null,
+          "hidden_for_user": false,
+          "thumbnail_url": null,
+          "modified_at": "2023-01-20T16:08:37Z",
+          "mime_class": "pdf",
+          "media_entry_id": null,
+          "category": "uncategorized",
+          "locked_for_user": false,
+          "preview_url": "/api/v1/canvadoc_session?blob=%7B%22moderated_grading_allow_list%22:null,%22enable_annotations%22:true,%22enrollment_type%22:%22admin%22,%22anonymous_instructor_annotations%22:false,%22submission_id%22:394362808,%22user_id%22:107060000000497279,%22attachment_id%22:101509352,%22type%22:%22canvadoc%22%7D&hmac=3eae01f03de620db150695cc7e0be2006896bc2c"
+        }
+      ],
+      "rubric_assessment": {
+        "_5993": {
+          "rating_id": "_4708",
+          "comments": "",
+          "points": 3
+        },
+        "_6980": {
+          "rating_id": "_1653",
+          "comments": "",
+          "points": 5
+        },
+        "_4579": {
+          "rating_id": "_6670",
+          "comments": "",
+          "points": 4
+        },
+        "_4785": {
+          "rating_id": "_2290",
+          "comments": "",
+          "points": 5
+        }
+      },
+      "anonymous_id": "hMELP"
+    },
+    {
+      "id": 315387776,
+      "body": null,
+      "url": null,
+      "grade": null,
+      "score": null,
+      "submitted_at": null,
+      "assignment_id": 8425587,
+      "user_id": 279295,
+      "submission_type": null,
+      "workflow_state": "unsubmitted",
+      "grade_matches_current_submission": true,
+      "graded_at": null,
+      "grader_id": null,
+      "attempt": null,
+      "cached_due_date": null,
+      "excused": null,
+      "late_policy_status": null,
+      "points_deducted": null,
+      "grading_period_id": null,
+      "extra_attempts": null,
+      "posted_at": null,
+      "redo_request": false,
+      "late": false,
+      "missing": false,
+      "seconds_late": 0,
+      "entered_grade": null,
+      "entered_score": null,
+      "preview_url": "https://byui.instructure.com/courses/179890/assignments/8425587/submissions/279295?preview=1&version=0",
+      "anonymous_id": "YZR22"
+    },
+    {
+      "id": 394362980,
+      "body": null,
+      "url": null,
+      "grade": null,
+      "score": null,
+      "submitted_at": null,
+      "assignment_id": 8425587,
+      "user_id": 621847,
+      "submission_type": null,
+      "workflow_state": "unsubmitted",
+      "grade_matches_current_submission": true,
+      "graded_at": null,
+      "grader_id": null,
+      "attempt": null,
+      "cached_due_date": null,
+      "excused": null,
+      "late_policy_status": null,
+      "points_deducted": null,
+      "grading_period_id": null,
+      "extra_attempts": null,
+      "posted_at": null,
+      "redo_request": false,
+      "late": false,
+      "missing": false,
+      "seconds_late": 0,
+      "entered_grade": null,
+      "entered_score": null,
+      "preview_url": "https://byui.instructure.com/courses/179890/assignments/8425587/submissions/621847?preview=1&version=0",
+      "anonymous_id": "hjUbV"
+    }
+  ]

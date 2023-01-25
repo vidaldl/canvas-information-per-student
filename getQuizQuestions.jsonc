@@ -1,0 +1,171 @@
+// This call gets all the questions of a quiz. 
+
+
+// URL: /v1/courses/{course_id}/quizzes/{quiz_id}/questions
+
+// More information: https://canvas.instructure.com/doc/api/quiz_questions.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/quizzes/3024871/questions?quiz_submission_id=71115073
+// Example Response:
+
+[
+    {
+      "id": 44924416,
+      "quiz_id": 3024871,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 1,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\">Did you <strong>come prepared</strong> to share your W02 Zoom Prep: Salience of Race answers with your group members?&nbsp;<script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "points_possible": 1,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_5410",
+          "id": 5410,
+          "text": "Yes"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1606",
+          "id": 1606,
+          "text": "No"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 44924418,
+      "quiz_id": 3024871,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 2,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\">Did you attend the <strong>whole meeting</strong>?&nbsp;<script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "points_possible": 1,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_2443",
+          "id": 2443,
+          "text": "Yes"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3621",
+          "id": 3621,
+          "text": "No"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 44924420,
+      "quiz_id": 3024871,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 3,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\">Did you <strong>participate and share your insights</strong> with others?&nbsp;<script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "points_possible": 1,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_1325",
+          "id": 1325,
+          "text": "Yes"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_2640",
+          "id": 2640,
+          "text": "No"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 44924422,
+      "quiz_id": 3024871,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 4,
+      "question_name": "Question",
+      "question_type": "essay_question",
+      "question_text": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\">Who was <strong>most influential in your learning</strong> this week, and <strong>why</strong>?<script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "points_possible": 1,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 44924424,
+      "quiz_id": 3024871,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 5,
+      "question_name": "Question",
+      "question_type": "essay_question",
+      "question_text": "<link rel=\"stylesheet\" href=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447800/canvas_global_app%20%25281%2529.css\">What was the most important thing you learned <strong>from your group's discussion?&nbsp;</strong><script src=\"https://instructure-uploads.s3.amazonaws.com/account_107060000000000001/attachments/95447814/canvas_global_app%20%25281%2529.js\"></script>",
+      "points_possible": 1,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]

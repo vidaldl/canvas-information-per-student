@@ -1,0 +1,41 @@
+// This call gets all of the submissions of a specific quiz in Canvas.
+
+
+// URL: /v1/courses/{course_id}/quizzes/{quiz_id}/submissions
+
+// More information: https://canvas.instructure.com/doc/api/quiz_submissions.html
+
+// Example URL: https://byui.instructure.com:443/api/v1/courses/179890/quizzes/3024871/submissions
+// Example Response:
+{
+    "quiz_submissions": [
+      {
+        "id": 71115073,
+        "quiz_id": 3024871,
+        "quiz_version": 3,
+        "user_id": 279295,
+        "submission_id": 315387684,
+        "score": 2,
+        "kept_score": 2,
+        "started_at": "2023-01-25T18:39:07Z",
+        "end_at": null,
+        "finished_at": "2023-01-25T18:40:21Z",
+        "attempt": 1,
+        "workflow_state": "pending_review",
+        "fudge_points": null,
+        "quiz_points_possible": 5,
+        "extra_attempts": null,
+        "extra_time": null,
+        "manually_unlocked": null,
+        "validation_token": "1d84177a288d2146829a9210adeab7a8385885470b0e48533aadd500a038e34c",
+        "score_before_regrade": null,
+        "has_seen_results": false,
+        "time_spent": 74,
+        "attempts_left": 0,
+        "overdue_and_needs_submission": false,
+        "excused?": false,
+        "html_url": "https://byui.instructure.com/courses/179890/quizzes/3024871/submissions/71115073",
+        "result_url": "https://byui.instructure.com/courses/179890/quizzes/3024871/history?quiz_submission_id=71115073&version=1"
+      }
+    ]
+  }
